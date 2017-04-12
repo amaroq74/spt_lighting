@@ -681,7 +681,7 @@
     <Font>Default</Font>
    </Appearance>
    <CueList Caption="Cue list" ID="1">
-    <WindowState Visible="True" X="680" Y="0" Width="525" Height="530"/>
+    <WindowState Visible="True" X="660" Y="0" Width="555" Height="570"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -901,7 +901,7 @@
     </Playback>
    </Slider>
    <Slider Caption="First Elec" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="0" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="True" X="480" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -922,7 +922,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Sec Elec" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="60" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="True" X="540" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -943,7 +943,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Third Elec" ID="10" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="120" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="True" X="600" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -964,7 +964,7 @@
     </Playback>
    </Slider>
    <Slider Caption="FOH Src4" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="180" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="True" X="420" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -982,7 +982,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Yellow Road" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="240" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="True" X="600" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -999,7 +999,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Witch Sign" ID="13" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="300" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="True" X="540" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1016,7 +1016,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Dim" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="370" Y="245" Width="60" Height="200"/>
+    <WindowState Visible="True" X="0" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1033,7 +1033,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Red" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="420" Y="285" Width="60" Height="200"/>
+    <WindowState Visible="True" X="60" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1050,7 +1050,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Grn" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="490" Y="295" Width="60" Height="200"/>
+    <WindowState Visible="True" X="120" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1067,7 +1067,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Blue" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="550" Y="280" Width="60" Height="200"/>
+    <WindowState Visible="True" X="180" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1084,7 +1084,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Rbow" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="495" Y="30" Width="60" Height="200"/>
+    <WindowState Visible="True" X="240" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1101,7 +1101,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Split" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="585" Y="40" Width="60" Height="200"/>
+    <WindowState Visible="True" X="300" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1112,6 +1112,102 @@
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="50">5</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Wall Par" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="360" Y="200" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="30">0</Channel>
+     <Channel Fixture="31">0</Channel>
+     <Channel Fixture="32">0</Channel>
+     <Channel Fixture="33">0</Channel>
+     <Channel Fixture="34">0</Channel>
+     <Channel Fixture="35">0</Channel>
+     <Channel Fixture="36">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Wall Scroll" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="420" Y="200" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="37">0</Channel>
+     <Channel Fixture="38">0</Channel>
+     <Channel Fixture="39">0</Channel>
+     <Channel Fixture="40">0</Channel>
+     <Channel Fixture="41">0</Channel>
+     <Channel Fixture="42">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Which House" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="480" Y="200" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="36">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="House1" ID="23" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="0" Y="400" Width="60" Height="160"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="14">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="House2" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="60" Y="400" Width="60" Height="160"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="20">0</Channel>
     </Level>
     <Playback>
      <Function>4294967295</Function>
