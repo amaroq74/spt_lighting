@@ -500,6 +500,14 @@
    <Address>199</Address>
    <Channels>6</Channels>
   </Fixture>
+  <ChannelsGroup ID="0" Name="FOH LED Dim" Value="0">0,0,1,0,2,0,3,0,4,0,9,0,10,0,11,0,12,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="FOH LED Red" Value="0">0,1,1,1,2,1,3,1,4,1,9,1,10,1,11,1,12,1</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="FOH LED Grn" Value="0">0,2,1,2,2,2,3,2,4,2,9,2,10,2,11,2</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="FOH LED Blu" Value="0">0,3,1,3,2,3,3,3,4,3,9,3,10,3,11,3,12,3</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="FOH LED Amb" Value="0">0,4,1,4,2,4,3,4,4,4,9,4,10,4,11,4,12,4</ChannelsGroup>
+  <ChannelsGroup ID="5" Name="FOH LED Stb" Value="0">0,6,1,6,2,6,3,6,4,6,9,6,10,6,11,6,12,6</ChannelsGroup>
+  <ChannelsGroup ID="6" Name="STG LED Dim" Value="0">46,0,47,0,48,0,49,0</ChannelsGroup>
+  <ChannelsGroup ID="7" Name="STG LED Red" Value="0">46,1,47,1,48,1,49,1</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="Work Lights">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -655,19 +663,19 @@
   </Function>
   <Function ID="3" Type="Scene" Name="Farm Grey">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="1">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="2">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="3">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="4">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="0">0,255,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
    <FixtureVal ID="6">0,228</FixtureVal>
    <FixtureVal ID="7">0,228</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="12">0,255,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,191,2,191,3,193,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="13">0,93</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,93</FixtureVal>
@@ -722,52 +730,52 @@
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="5" Height="5" Units="0"/>
-   <FxItem ID="39" XPos="1885.25" YPos="598.361"/>
-   <FxItem ID="36" XPos="4660.3" YPos="993.76" GelColor="#0000ff"/>
-   <FxItem ID="37" XPos="49.1803" YPos="606.557"/>
-   <FxItem ID="50" XPos="2360.66" YPos="196.721"/>
-   <FxItem ID="48" XPos="4254.1" YPos="3131.15"/>
-   <FxItem ID="49" XPos="4245.9" YPos="1631.15"/>
-   <FxItem ID="10" XPos="3646.46" YPos="4525.25"/>
-   <FxItem ID="11" XPos="4222.22" YPos="4525.25"/>
-   <FxItem ID="8" XPos="4475.41" YPos="4081.97"/>
-   <FxItem ID="9" XPos="3030.3" YPos="4535.35"/>
-   <FxItem ID="15" XPos="1218.41" YPos="3512.84"/>
-   <FxItem ID="12" XPos="4767.68" YPos="4525.25"/>
    <FxItem ID="13" XPos="24.0106" YPos="3521.03"/>
-   <FxItem ID="2" XPos="1206.08" YPos="4522.69"/>
-   <FxItem ID="3" XPos="1753.27" YPos="4526.49"/>
-   <FxItem ID="0" XPos="3.85741" YPos="4525.44"/>
-   <FxItem ID="1" XPos="646.302" YPos="4520.78"/>
-   <FxItem ID="6" XPos="1991.8" YPos="4090.16"/>
+   <FxItem ID="12" XPos="4767.68" YPos="4525.25"/>
+   <FxItem ID="11" XPos="4222.22" YPos="4525.25"/>
+   <FxItem ID="10" XPos="3646.46" YPos="4525.25"/>
+   <FxItem ID="9" XPos="3030.3" YPos="4535.35"/>
+   <FxItem ID="8" XPos="4475.41" YPos="4081.97"/>
    <FxItem ID="7" XPos="2795.08" YPos="4106.56"/>
-   <FxItem ID="4" XPos="2393.94" YPos="4515.15"/>
+   <FxItem ID="6" XPos="1991.8" YPos="4090.16"/>
    <FxItem ID="5" XPos="311.475" YPos="4081.97"/>
-   <FxItem ID="26" XPos="1214.02" YPos="2007.2"/>
-   <FxItem ID="27" XPos="2393.94" YPos="2005.3" GelColor="#ffffff"/>
-   <FxItem ID="24" XPos="4706.73" YPos="2708.54"/>
-   <FxItem ID="25" XPos="20.202" YPos="1999.01"/>
-   <FxItem ID="30" XPos="40.404" YPos="1005.05" GelColor="#0000ff"/>
-   <FxItem ID="31" XPos="1031.88" YPos="998.757" GelColor="#0000ff"/>
-   <FxItem ID="28" XPos="3656.57" YPos="2034.28"/>
-   <FxItem ID="29" XPos="4690.33" YPos="2012.54"/>
-   <FxItem ID="18" XPos="4690.33" YPos="3519.89"/>
-   <FxItem ID="19" XPos="48.6007" YPos="2620.89"/>
-   <FxItem ID="16" XPos="2385.74" YPos="3522.94"/>
-   <FxItem ID="17" XPos="3660.95" YPos="3522.94"/>
-   <FxItem ID="22" XPos="2392.04" YPos="2651.76"/>
-   <FxItem ID="23" XPos="3671.05" YPos="2710.47"/>
-   <FxItem ID="21" XPos="1222.22" YPos="2617.07"/>
-   <FxItem ID="42" XPos="4663.93" YPos="581.967"/>
-   <FxItem ID="40" XPos="2836.07" YPos="590.164"/>
-   <FxItem ID="41" XPos="3704.92" YPos="598.361"/>
-   <FxItem ID="46" XPos="573.77" YPos="3049.18"/>
+   <FxItem ID="4" XPos="2393.94" YPos="4515.15"/>
+   <FxItem ID="3" XPos="1753.27" YPos="4526.49"/>
+   <FxItem ID="2" XPos="1206.08" YPos="4522.69"/>
+   <FxItem ID="1" XPos="646.302" YPos="4520.78"/>
+   <FxItem ID="0" XPos="3.85741" YPos="4525.44"/>
+   <FxItem ID="50" XPos="2360.66" YPos="196.721"/>
+   <FxItem ID="49" XPos="4245.9" YPos="1631.15"/>
+   <FxItem ID="48" XPos="4254.1" YPos="3131.15"/>
    <FxItem ID="47" XPos="598.361" YPos="1598.36"/>
-   <FxItem ID="34" XPos="2835.07" YPos="1015.15"/>
-   <FxItem ID="35" XPos="3699.78" YPos="1006.95" GelColor="#0000ff"/>
-   <FxItem ID="32" XPos="1883.43" YPos="1010.76"/>
-   <FxItem ID="33" XPos="1468.21" YPos="1366.2" GelColor="#0000ff"/>
+   <FxItem ID="46" XPos="573.77" YPos="3049.18"/>
+   <FxItem ID="42" XPos="4663.93" YPos="581.967"/>
+   <FxItem ID="41" XPos="3704.92" YPos="598.361"/>
+   <FxItem ID="40" XPos="2836.07" YPos="590.164"/>
+   <FxItem ID="39" XPos="1885.25" YPos="598.361"/>
    <FxItem ID="38" XPos="1032.79" YPos="598.361"/>
+   <FxItem ID="37" XPos="49.1803" YPos="606.557"/>
+   <FxItem ID="36" XPos="4660.3" YPos="993.76" GelColor="#0000ff"/>
+   <FxItem ID="35" XPos="3699.78" YPos="1006.95" GelColor="#0000ff"/>
+   <FxItem ID="34" XPos="2835.07" YPos="1015.15"/>
+   <FxItem ID="33" XPos="1468.21" YPos="1366.2" GelColor="#0000ff"/>
+   <FxItem ID="32" XPos="1883.43" YPos="1010.76"/>
+   <FxItem ID="31" XPos="1031.88" YPos="998.757" GelColor="#0000ff"/>
+   <FxItem ID="30" XPos="40.404" YPos="1005.05" GelColor="#0000ff"/>
+   <FxItem ID="29" XPos="4690.33" YPos="2012.54"/>
+   <FxItem ID="28" XPos="3656.57" YPos="2034.28"/>
+   <FxItem ID="27" XPos="2393.94" YPos="2005.3" GelColor="#ffffff"/>
+   <FxItem ID="26" XPos="1214.02" YPos="2007.2"/>
+   <FxItem ID="25" XPos="20.202" YPos="1999.01"/>
+   <FxItem ID="24" XPos="4706.73" YPos="2708.54"/>
+   <FxItem ID="23" XPos="3671.05" YPos="2710.47"/>
+   <FxItem ID="22" XPos="2392.04" YPos="2651.76"/>
+   <FxItem ID="21" XPos="1222.22" YPos="2617.07"/>
+   <FxItem ID="19" XPos="48.6007" YPos="2620.89"/>
+   <FxItem ID="18" XPos="4690.33" YPos="3519.89"/>
+   <FxItem ID="17" XPos="3660.95" YPos="3522.94"/>
+   <FxItem ID="16" XPos="2385.74" YPos="3522.94"/>
+   <FxItem ID="15" XPos="1218.41" YPos="3512.84"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -806,7 +814,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="0">0</Channel>
      <Channel Fixture="1">0</Channel>
      <Channel Fixture="2">0</Channel>
@@ -951,20 +959,20 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="0">6</Channel>
-     <Channel Fixture="1">6</Channel>
-     <Channel Fixture="2">6</Channel>
-     <Channel Fixture="3">6</Channel>
-     <Channel Fixture="4">6</Channel>
-     <Channel Fixture="9">6</Channel>
-     <Channel Fixture="10">6</Channel>
-     <Channel Fixture="11">6</Channel>
-     <Channel Fixture="12">6</Channel>
-     <Channel Fixture="46">6</Channel>
-     <Channel Fixture="47">6</Channel>
-     <Channel Fixture="48">6</Channel>
-     <Channel Fixture="49">6</Channel>
+    <Level LowLimit="0" HighLimit="255" Value="255">
+     <Channel Fixture="0">5</Channel>
+     <Channel Fixture="1">5</Channel>
+     <Channel Fixture="2">5</Channel>
+     <Channel Fixture="3">5</Channel>
+     <Channel Fixture="4">5</Channel>
+     <Channel Fixture="9">5</Channel>
+     <Channel Fixture="10">5</Channel>
+     <Channel Fixture="11">5</Channel>
+     <Channel Fixture="12">5</Channel>
+     <Channel Fixture="46">5</Channel>
+     <Channel Fixture="47">5</Channel>
+     <Channel Fixture="48">5</Channel>
+     <Channel Fixture="49">5</Channel>
     </Level>
     <Playback>
      <Function>4294967295</Function>
@@ -981,19 +989,19 @@
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="0">7</Channel>
-     <Channel Fixture="1">7</Channel>
-     <Channel Fixture="2">7</Channel>
-     <Channel Fixture="3">7</Channel>
-     <Channel Fixture="4">7</Channel>
-     <Channel Fixture="9">7</Channel>
-     <Channel Fixture="10">7</Channel>
-     <Channel Fixture="11">7</Channel>
-     <Channel Fixture="12">7</Channel>
-     <Channel Fixture="46">7</Channel>
-     <Channel Fixture="47">7</Channel>
-     <Channel Fixture="48">7</Channel>
-     <Channel Fixture="49">7</Channel>
+     <Channel Fixture="0">6</Channel>
+     <Channel Fixture="1">6</Channel>
+     <Channel Fixture="2">6</Channel>
+     <Channel Fixture="3">6</Channel>
+     <Channel Fixture="4">6</Channel>
+     <Channel Fixture="9">6</Channel>
+     <Channel Fixture="10">6</Channel>
+     <Channel Fixture="11">6</Channel>
+     <Channel Fixture="12">6</Channel>
+     <Channel Fixture="46">6</Channel>
+     <Channel Fixture="47">6</Channel>
+     <Channel Fixture="48">6</Channel>
+     <Channel Fixture="49">6</Channel>
     </Level>
     <Playback>
      <Function>4294967295</Function>
@@ -1072,7 +1080,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="177">
      <Channel Fixture="6">0</Channel>
      <Channel Fixture="7">0</Channel>
     </Level>
@@ -1124,7 +1132,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="50">0</Channel>
     </Level>
     <Playback>
@@ -1192,7 +1200,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="204">
      <Channel Fixture="50">4</Channel>
     </Level>
     <Playback>
