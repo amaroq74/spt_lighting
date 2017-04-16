@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.10.5a</Version>
@@ -384,70 +384,20 @@
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
-   <ID>37</ID>
-   <Name>Scroll #1</Name>
-   <Universe>0</Universe>
-   <Address>49</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>38</ID>
-   <Name>Scroll #2</Name>
-   <Universe>0</Universe>
-   <Address>50</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>39</ID>
-   <Name>Scroll #3</Name>
-   <Universe>0</Universe>
-   <Address>51</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>40</ID>
-   <Name>Scroll #4</Name>
-   <Universe>0</Universe>
-   <Address>52</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>41</ID>
-   <Name>Scroll #5</Name>
-   <Universe>0</Universe>
-   <Address>53</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>42</ID>
-   <Name>Scroll #6</Name>
-   <Universe>0</Universe>
-   <Address>54</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
    <ID>43</ID>
    <Name>Rear</Name>
    <Universe>0</Universe>
    <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>44</ID>
+   <Name>Stairs</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
    <Channels>1</Channels>
   </Fixture>
   <Fixture>
@@ -520,8 +470,6 @@
   <ChannelsGroup ID="15" Name="FOH SRC4" Value="0">6,0,7,0</ChannelsGroup>
   <ChannelsGroup ID="16" Name="Brick Road" Value="0">5,0</ChannelsGroup>
   <ChannelsGroup ID="17" Name="Witch Sign" Value="0">8,0</ChannelsGroup>
-  <ChannelsGroup ID="18" Name="Wall PDIM" Value="0">30,0,31,0,32,0,33,0,34,0,35,0</ChannelsGroup>
-  <ChannelsGroup ID="19" Name="Wall PCLR" Value="0">37,0,38,0,39,0,40,0,41,0,42,0</ChannelsGroup>
   <ChannelsGroup ID="20" Name="Wall DIM" Value="0">50,0</ChannelsGroup>
   <ChannelsGroup ID="21" Name="Wall RED" Value="0">50,1</ChannelsGroup>
   <ChannelsGroup ID="22" Name="Wall GRN" Value="0">50,2</ChannelsGroup>
@@ -530,6 +478,7 @@
   <ChannelsGroup ID="25" Name="Wall SPLIT" Value="0">50,5</ChannelsGroup>
   <ChannelsGroup ID="28" Name="Tin Shed" Value="0">31,0</ChannelsGroup>
   <ChannelsGroup ID="29" Name="Fourth Elec" Value="0">30,0,32,0,33,0,34,0,35,0</ChannelsGroup>
+  <ChannelsGroup ID="30" Name="Yellow Stairs" Value="0">44,0</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="00 Work Lights">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>13,205,14,203</ChannelGroupsVal>
@@ -625,12 +574,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,206,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,206,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,206,1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -675,12 +618,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -725,12 +662,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,78,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,115,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,125,6,0,7,0,8,0,9,0</FixtureVal>
@@ -776,12 +707,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -854,12 +779,6 @@
    <FixtureVal ID="12">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -905,12 +824,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -955,12 +868,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,203,1,0,2,207,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1005,12 +912,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1031,12 +932,6 @@
    <FixtureVal ID="12">1,190,2,191,3,193,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">1,191,2,191,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1057,12 +952,6 @@
    <FixtureVal ID="12">1,0,2,0,3,0,4,0,5,29,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">1,0,2,0,3,0,4,0,5,78,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">1,0,2,0,3,0,4,0,5,115,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">1,0,2,0,3,0,4,0,5,125,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1107,12 +996,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,78,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,115,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,125,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1157,12 +1040,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1183,12 +1060,6 @@
    <FixtureVal ID="12">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1233,12 +1104,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1259,12 +1124,6 @@
    <FixtureVal ID="12">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1309,12 +1168,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1359,12 +1212,6 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1385,12 +1232,6 @@
    <FixtureVal ID="12">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="37">0,0</FixtureVal>
-   <FixtureVal ID="38">0,0</FixtureVal>
-   <FixtureVal ID="39">0,0</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
-   <FixtureVal ID="41">0,0</FixtureVal>
-   <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="46">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1408,16 +1249,12 @@
    <FxItem ID="17" XPos="3660.95" YPos="3522.94"/>
    <FxItem ID="46" XPos="573.77" YPos="3049.18"/>
    <FxItem ID="47" XPos="598.361" YPos="1598.36"/>
-   <FxItem ID="42" XPos="4663.93" YPos="581.967"/>
-   <FxItem ID="40" XPos="2836.07" YPos="590.164"/>
-   <FxItem ID="41" XPos="3704.92" YPos="598.361"/>
-   <FxItem ID="38" XPos="1032.79" YPos="598.361"/>
-   <FxItem ID="39" XPos="1885.25" YPos="598.361"/>
-   <FxItem ID="37" XPos="49.1803" YPos="606.557"/>
-   <FxItem ID="34" XPos="2835.07" YPos="1015.15"/>
-   <FxItem ID="35" XPos="3699.78" YPos="1006.95" GelColor="#0000ff"/>
-   <FxItem ID="32" XPos="1883.43" YPos="1010.76"/>
-   <FxItem ID="33" XPos="1468.21" YPos="1366.2" GelColor="#0000ff"/>
+   <FxItem ID="44" XPos="2393.16" YPos="4000"/>
+   <FxItem ID="43" XPos="4717.95" YPos="4034.19"/>
+   <FxItem ID="34" XPos="3057.29" YPos="1006.6"/>
+   <FxItem ID="35" XPos="4007.47" YPos="998.403"/>
+   <FxItem ID="32" XPos="1550.1" YPos="1275.72"/>
+   <FxItem ID="33" XPos="2143.42" YPos="1015.77"/>
    <FxItem ID="50" XPos="2360.66" YPos="196.721"/>
    <FxItem ID="48" XPos="4254.1" YPos="3131.15"/>
    <FxItem ID="49" XPos="4245.9" YPos="1631.15"/>
@@ -1426,7 +1263,7 @@
    <FxItem ID="13" XPos="24.0106" YPos="3521.03"/>
    <FxItem ID="10" XPos="3646.46" YPos="4525.25"/>
    <FxItem ID="11" XPos="4222.22" YPos="4525.25"/>
-   <FxItem ID="8" XPos="4475.41" YPos="4081.97"/>
+   <FxItem ID="8" XPos="4210.45" YPos="4047.78"/>
    <FxItem ID="9" XPos="3030.3" YPos="4535.35"/>
    <FxItem ID="6" XPos="1991.8" YPos="4090.16"/>
    <FxItem ID="7" XPos="2795.08" YPos="4106.56"/>
@@ -1436,14 +1273,14 @@
    <FxItem ID="3" XPos="1753.27" YPos="4526.49"/>
    <FxItem ID="0" XPos="3.85741" YPos="4525.44"/>
    <FxItem ID="1" XPos="646.302" YPos="4520.78"/>
-   <FxItem ID="30" XPos="40.404" YPos="1005.05" GelColor="#0000ff"/>
-   <FxItem ID="31" XPos="1031.88" YPos="998.757" GelColor="#0000ff"/>
+   <FxItem ID="30" XPos="40.404" YPos="1005.05"/>
+   <FxItem ID="31" XPos="1014.79" YPos="844.911" GelColor="#aa0000"/>
    <FxItem ID="28" XPos="3656.57" YPos="2034.28"/>
-   <FxItem ID="29" XPos="4690.33" YPos="2012.54"/>
+   <FxItem ID="29" XPos="4709.75" YPos="1818.37"/>
    <FxItem ID="26" XPos="1214.02" YPos="2007.2"/>
    <FxItem ID="27" XPos="2393.94" YPos="2005.3" GelColor="#ffffff"/>
    <FxItem ID="24" XPos="4706.73" YPos="2708.54"/>
-   <FxItem ID="25" XPos="20.202" YPos="1999.01"/>
+   <FxItem ID="25" XPos="44.9954" YPos="2009.89"/>
    <FxItem ID="22" XPos="2392.04" YPos="2651.76"/>
    <FxItem ID="23" XPos="3671.05" YPos="2710.47"/>
    <FxItem ID="21" XPos="1222.22" YPos="2617.07"/>
@@ -1760,7 +1597,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Yellow Road" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="600" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="540" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1777,7 +1614,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Witch Sign" ID="13" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="540" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="480" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1794,7 +1631,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Dim" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="0" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="60" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1811,7 +1648,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Red" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="60" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="120" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1828,7 +1665,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Grn" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="120" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="180" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1845,7 +1682,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Blue" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="180" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="240" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1862,7 +1699,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Rbow" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="240" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="300" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1879,7 +1716,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Wall Split" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="300" Y="200" Width="60" Height="200"/>
+    <WindowState Visible="False" X="360" Y="200" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1891,65 +1728,6 @@
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="50">5</Channel>
     </Level>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Slider Caption="Wall Par" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="360" Y="200" Width="60" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="30">0</Channel>
-     <Channel Fixture="31">0</Channel>
-     <Channel Fixture="32">0</Channel>
-     <Channel Fixture="33">0</Channel>
-     <Channel Fixture="34">0</Channel>
-     <Channel Fixture="35">0</Channel>
-    </Level>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Slider Caption="Wall Scroll" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="420" Y="200" Width="60" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="37">0</Channel>
-     <Channel Fixture="38">0</Channel>
-     <Channel Fixture="39">0</Channel>
-     <Channel Fixture="40">0</Channel>
-     <Channel Fixture="41">0</Channel>
-     <Channel Fixture="42">0</Channel>
-    </Level>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Slider Caption="Which House" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="480" Y="200" Width="60" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0"/>
     <Playback>
      <Function>4294967295</Function>
     </Playback>
@@ -2003,6 +1781,55 @@
      <Channel Fixture="47">6</Channel>
      <Channel Fixture="48">6</Channel>
      <Channel Fixture="49">6</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Fourth Elec" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="0" Y="200" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Tin Shed" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="420" Y="200" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="31">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Yellow Stairs" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="600" Y="200" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="44">0</Channel>
     </Level>
     <Playback>
      <Function>4294967295</Function>
