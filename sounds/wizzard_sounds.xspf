@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///home/ryan/projects/per/spt_lighting/sounds/Baby-chick-sounds.mp3</location>
+			<duration>31216</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/ryan/projects/per/spt_lighting/sounds/85665__cgeffex__triple-small-dog-bark.mp3</location>
+			<annotation>                              </annotation>
+			<duration>1363</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/ryan/projects/per/spt_lighting/sounds/combined_tornado.wav</location>
+			<title>combined_tornado</title>
+			<creator>RogerBoyX69 (freesound.org)</creator>
+			<duration>330431</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/ryan/projects/per/spt_lighting/sounds/81195__timbre__hand-bell-summon-butler.wav</location>
+			<duration>29127</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/ryan/projects/per/spt_lighting/sounds/Tin%20man%20_bang%20on%20my%20chest_%20%5B144p%5D.wav</location>
+			<duration>2210</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+	</extension>
+</playlist>
