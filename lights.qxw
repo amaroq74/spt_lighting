@@ -2161,7 +2161,7 @@
    <FixtureVal ID="49">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="50">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
   </Function>
-  <Monitor DisplayMode="0" ShowLabels="1">
+  <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Sans Serif,11,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>1</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -2771,7 +2771,7 @@
     </Appearance>
     <Input Universe="1" Channel="0"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="7">
      <Channel Fixture="46">5</Channel>
      <Channel Fixture="47">5</Channel>
      <Channel Fixture="48">5</Channel>
