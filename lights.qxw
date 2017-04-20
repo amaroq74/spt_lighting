@@ -1166,36 +1166,36 @@
   </Function>
   <Function ID="13" Type="Scene" Name="Farm Grey Tornado">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <ChannelGroupsVal>0,75,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,151,13,87,14,0,15,118,16,0,17,0,20,143,21,192,22,192,23,192,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
-   <FixtureVal ID="0">0,75,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="1">0,75,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="2">0,75,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="3">0,75,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="4">0,75,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <ChannelGroupsVal>0,24,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,100,13,87,14,0,15,76,16,0,17,0,20,104,21,192,22,192,23,192,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,24,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,24,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,24,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,24,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,24,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
-   <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="6">0,76</FixtureVal>
+   <FixtureVal ID="7">0,76</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,75,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="10">0,75,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="11">0,75,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="12">0,75,1,190,2,191,3,193,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="9">0,24,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="10">0,24,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="11">0,24,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="12">0,24,1,190,2,191,3,193,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="13">0,100</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,151</FixtureVal>
-   <FixtureVal ID="16">0,0</FixtureVal>
-   <FixtureVal ID="17">0,151</FixtureVal>
-   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="15">0,100</FixtureVal>
+   <FixtureVal ID="16">0,100</FixtureVal>
+   <FixtureVal ID="17">0,100</FixtureVal>
+   <FixtureVal ID="18">0,100</FixtureVal>
    <FixtureVal ID="19">0,87</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
    <FixtureVal ID="21">0,0</FixtureVal>
    <FixtureVal ID="22">0,87</FixtureVal>
    <FixtureVal ID="23">0,0</FixtureVal>
    <FixtureVal ID="24">0,0</FixtureVal>
-   <FixtureVal ID="25">0,91</FixtureVal>
-   <FixtureVal ID="26">0,122</FixtureVal>
+   <FixtureVal ID="25">0,0</FixtureVal>
+   <FixtureVal ID="26">0,59</FixtureVal>
    <FixtureVal ID="27">0,91</FixtureVal>
-   <FixtureVal ID="28">0,91</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
    <FixtureVal ID="29">0,122</FixtureVal>
    <FixtureVal ID="30">0,0</FixtureVal>
    <FixtureVal ID="31">0,0</FixtureVal>
@@ -1208,7 +1208,7 @@
    <FixtureVal ID="47">0,0,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="49">0,0,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="50">0,143,1,192,2,192,3,192,4,0,5,0</FixtureVal>
+   <FixtureVal ID="50">0,104,1,192,2,192,3,192,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="14" Type="Chaser" Name="Tornado">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1458,15 +1458,15 @@
    <ChannelGroupsVal>0,0,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,122,13,133,14,0,15,0,16,0,17,0,20,50,21,0,22,0,23,0,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,179,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,180,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,184,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="7">0,0</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="9">0,152,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="10">0,188,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="11">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="12">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="13">0,122</FixtureVal>
@@ -1497,7 +1497,7 @@
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="49">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="50">0,66,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="50">0,66,1,190,2,191,3,191,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="21" Type="Scene" Name="Lion Prep">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1543,7 +1543,7 @@
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="49">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="50">0,0,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="50">0,0,1,190,2,191,3,190,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="22" Type="Scene" Name="Poppies Prep">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1647,7 +1647,7 @@
   </Function>
   <Function ID="25" Type="Scene" Name="Oz Town">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <ChannelGroupsVal>0,0,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,20,0,21,0,22,0,23,0,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
+   <ChannelGroupsVal>0,0,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,20,0,21,0,22,0,23,0,24,0,25,0,28,0,29,237,30,0</ChannelGroupsVal>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -1678,12 +1678,12 @@
    <FixtureVal ID="27">0,230</FixtureVal>
    <FixtureVal ID="28">0,230</FixtureVal>
    <FixtureVal ID="29">0,230</FixtureVal>
-   <FixtureVal ID="30">0,0</FixtureVal>
+   <FixtureVal ID="30">0,237</FixtureVal>
    <FixtureVal ID="31">0,0</FixtureVal>
-   <FixtureVal ID="32">0,0</FixtureVal>
-   <FixtureVal ID="33">0,0</FixtureVal>
-   <FixtureVal ID="34">0,0</FixtureVal>
-   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="32">0,237</FixtureVal>
+   <FixtureVal ID="33">0,237</FixtureVal>
+   <FixtureVal ID="34">0,237</FixtureVal>
+   <FixtureVal ID="35">0,237</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
    <FixtureVal ID="46">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -2002,9 +2002,9 @@
   <Function ID="36" Type="Scene" Name="Kansas Color">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,0,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,20,0,21,0,22,0,23,0,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
-   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
@@ -2012,15 +2012,15 @@
    <FixtureVal ID="7">0,0</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="12">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="13">0,230</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,230</FixtureVal>
    <FixtureVal ID="16">0,230</FixtureVal>
    <FixtureVal ID="17">0,230</FixtureVal>
-   <FixtureVal ID="18">0,230</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
    <FixtureVal ID="19">0,226</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
    <FixtureVal ID="21">0,226</FixtureVal>
@@ -2093,37 +2093,37 @@
   </Function>
   <Function ID="38" Type="Scene" Name="Gypsy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <ChannelGroupsVal>0,0,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,20,0,21,0,22,0,23,0,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
+   <ChannelGroupsVal>0,0,26,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,0,13,68,14,113,15,0,16,0,17,0,20,0,21,0,22,0,23,0,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
    <FixtureVal ID="0">0,0,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,81,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,174,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="4">0,181,1,191,2,191,3,190,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
    <FixtureVal ID="6">0,95</FixtureVal>
    <FixtureVal ID="7">0,121</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,176,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="10">0,0,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="9">0,203,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="10">0,107,1,191,2,191,3,192,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="11">0,106,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="12">0,0,1,190,2,191,3,193,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="13">0,93</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="15">0,109</FixtureVal>
-   <FixtureVal ID="16">0,103</FixtureVal>
-   <FixtureVal ID="17">0,107</FixtureVal>
-   <FixtureVal ID="18">0,97</FixtureVal>
-   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="19">0,68</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,93</FixtureVal>
-   <FixtureVal ID="22">0,93</FixtureVal>
-   <FixtureVal ID="23">0,93</FixtureVal>
-   <FixtureVal ID="24">0,93</FixtureVal>
-   <FixtureVal ID="25">0,91</FixtureVal>
-   <FixtureVal ID="26">0,91</FixtureVal>
-   <FixtureVal ID="27">0,91</FixtureVal>
-   <FixtureVal ID="28">0,91</FixtureVal>
-   <FixtureVal ID="29">0,91</FixtureVal>
+   <FixtureVal ID="21">0,68</FixtureVal>
+   <FixtureVal ID="22">0,68</FixtureVal>
+   <FixtureVal ID="23">0,68</FixtureVal>
+   <FixtureVal ID="24">0,68</FixtureVal>
+   <FixtureVal ID="25">0,113</FixtureVal>
+   <FixtureVal ID="26">0,113</FixtureVal>
+   <FixtureVal ID="27">0,113</FixtureVal>
+   <FixtureVal ID="28">0,113</FixtureVal>
+   <FixtureVal ID="29">0,113</FixtureVal>
    <FixtureVal ID="30">0,0</FixtureVal>
    <FixtureVal ID="31">0,0</FixtureVal>
    <FixtureVal ID="32">0,0</FixtureVal>
@@ -2328,13 +2328,13 @@
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="7">0,0</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
-   <FixtureVal ID="9">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="10">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="11">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="12">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -2361,6 +2361,7 @@
    <FixtureVal ID="33">0,0</FixtureVal>
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
    <FixtureVal ID="44">0,209</FixtureVal>
    <FixtureVal ID="46">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
@@ -2639,12 +2640,12 @@
    <FixtureVal ID="34">0,0</FixtureVal>
    <FixtureVal ID="35">0,0</FixtureVal>
    <FixtureVal ID="43">0,255</FixtureVal>
-   <FixtureVal ID="44">0,207</FixtureVal>
+   <FixtureVal ID="44">0,156</FixtureVal>
    <FixtureVal ID="46">0,206,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="47">0,206,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,206,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="49">0,206,1,191,2,191,3,191,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="50">0,0,1,192,2,192,3,192,4,0,5,0</FixtureVal>
+   <FixtureVal ID="50">0,143,1,192,2,192,3,192,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="50" Type="Scene" Name="">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3100,7 +3101,7 @@
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="49">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="50">0,66,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="50">0,62,1,190,2,190,3,190,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="61" Type="Scene" Name="Haunted Forest Prep">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3146,7 +3147,7 @@
    <FixtureVal ID="47">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="48">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="49">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="50">0,0,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="50">0,0,1,190,2,190,3,190,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="62" Type="Scene" Name="Dorothy Search">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3289,7 +3290,7 @@
   <Function ID="65" Type="Scene" Name="Wizzard Reveal">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,167,26,0,1,0,2,255,3,0,4,0,5,0,6,0,7,0,27,0,8,0,9,0,10,0,11,0,12,193,13,183,14,0,15,0,16,0,17,0,20,255,21,0,22,255,23,0,24,0,25,0,28,0,29,0,30,0</ChannelGroupsVal>
-   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,167,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
@@ -3301,19 +3302,19 @@
    <FixtureVal ID="9">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="11">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="12">0,255,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="13">0,193</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,193</FixtureVal>
    <FixtureVal ID="16">0,193</FixtureVal>
    <FixtureVal ID="17">0,189</FixtureVal>
    <FixtureVal ID="18">0,185</FixtureVal>
-   <FixtureVal ID="19">0,183</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
    <FixtureVal ID="20">0,0</FixtureVal>
-   <FixtureVal ID="21">0,183</FixtureVal>
-   <FixtureVal ID="22">0,183</FixtureVal>
-   <FixtureVal ID="23">0,183</FixtureVal>
-   <FixtureVal ID="24">0,183</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="22">0,116</FixtureVal>
+   <FixtureVal ID="23">0,0</FixtureVal>
+   <FixtureVal ID="24">0,172</FixtureVal>
    <FixtureVal ID="25">0,0</FixtureVal>
    <FixtureVal ID="26">0,0</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
@@ -3474,7 +3475,7 @@
    <Font>Sans Serif,8,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>1</ChannelStyle>
    <ValueStyle>0</ValueStyle>
-   <Grid Width="2" Height="5" Units="0"/>
+   <Grid Width="4" Height="5" Units="0"/>
    <FxItem ID="49" XPos="4245.9" YPos="1631.15"/>
    <FxItem ID="48" XPos="4254.1" YPos="3131.15"/>
    <FxItem ID="3" XPos="1753.27" YPos="4526.49"/>
@@ -3505,7 +3506,7 @@
    <FxItem ID="24" XPos="4706.73" YPos="2708.54"/>
    <FxItem ID="31" XPos="1014.79" YPos="844.911" GelColor="#aa0000"/>
    <FxItem ID="30" XPos="40.404" YPos="1005.05"/>
-   <FxItem ID="29" XPos="4709.75" YPos="1818.37"/>
+   <FxItem ID="29" XPos="4717.56" YPos="1818.37"/>
    <FxItem ID="28" XPos="3656.57" YPos="2034.28"/>
    <FxItem ID="35" XPos="4007.47" YPos="998.403"/>
    <FxItem ID="34" XPos="3057.29" YPos="1006.6"/>
@@ -3560,7 +3561,7 @@
     </Appearance>
     <Input Universe="1" Channel="16"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="255">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="0">0</Channel>
      <Channel Fixture="1">0</Channel>
      <Channel Fixture="2">0</Channel>
@@ -3738,7 +3739,7 @@
     </Appearance>
     <Input Universe="1" Channel="24"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="131">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="19">0</Channel>
      <Channel Fixture="21">0</Channel>
      <Channel Fixture="22">0</Channel>
@@ -3760,7 +3761,7 @@
     </Appearance>
     <Input Universe="1" Channel="25"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="133">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="25">0</Channel>
      <Channel Fixture="26">0</Channel>
      <Channel Fixture="27">0</Channel>
@@ -3981,7 +3982,7 @@
     </Appearance>
     <Input Universe="1" Channel="26"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="136">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="30">0</Channel>
      <Channel Fixture="32">0</Channel>
      <Channel Fixture="33">0</Channel>
