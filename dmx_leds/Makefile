@@ -1,5 +1,4 @@
 BOARD=uno
 
-#include /amaroq/share/Arduino/arduino.mk
-include /u/local/Arduino/arduino.mk
+include ../../arduino_libraries/arduino.mk
 
