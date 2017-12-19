@@ -3,41 +3,58 @@
 	<title>Playlist</title>
 	<trackList>
 		<track>
-			<location>file:///home/ryan/projects/per/spt_lighting/sounds/Baby-chick-sounds.mp3</location>
-			<duration>31216</duration>
+			<location>file:///home/ryan/spt_lighting/sounds/85665__cgeffex__triple-small-dog-bark.wav</location>
+			<duration>632</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/ryan/projects/per/spt_lighting/sounds/85665__cgeffex__triple-small-dog-bark.mp3</location>
-			<annotation>                              </annotation>
-			<duration>1363</duration>
+			<location>file:///home/ryan/spt_lighting/sounds/combined_tornado.wav</location>
+			<title>combined_tornado</title>
+			<creator>RogerBoyX69 (freesound.org)</creator>
+			<image>file:///home/ryan/.cache/vlc/art/arturl/8ef927dfa7d8f5133986b3ce01cf5be8/art</image>
+			<duration>330431</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/ryan/projects/per/spt_lighting/sounds/combined_tornado.wav</location>
-			<title>combined_tornado</title>
-			<creator>RogerBoyX69 (freesound.org)</creator>
-			<duration>330431</duration>
+			<location>file:///home/ryan/spt_lighting/sounds/Tin%20man%20_bang%20on%20my%20chest_%20%5B144p%5D.wav</location>
+			<duration>2210</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/ryan/projects/per/spt_lighting/sounds/81195__timbre__hand-bell-summon-butler.wav</location>
-			<duration>29127</duration>
+			<location>file:///home/ryan/spt_lighting/sounds/The%20Wizard%20of%20Oz%20%281939%29%20-%20Tin%20Man%27s%20Dance%20%5B144p%5D.wav</location>
+			<duration>3338</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///home/ryan/projects/per/spt_lighting/sounds/Tin%20man%20_bang%20on%20my%20chest_%20%5B144p%5D.wav</location>
-			<duration>2210</duration>
+			<location>file:///home/ryan/spt_lighting/sounds/180330__aeonemi__gothic-church-bells.mp3</location>
+			<title>Gothic Church Bells</title>
+			<creator>Aeonemi</creator>
+			<album>Test2</album>
+			<duration>48413</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/ryan/spt_lighting/sounds/85665__cgeffex__triple-small-dog-bark.wav</location>
+			<duration>632</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/ryan/spt_lighting/sounds/251937__musicmasta1__owlhoot-clean.wav</location>
+			<duration>3789</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
 			</extension>
 		</track>
 	</trackList>
@@ -47,5 +64,7 @@
 			<vlc:item tid="2"/>
 			<vlc:item tid="3"/>
 			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
 	</extension>
 </playlist>
