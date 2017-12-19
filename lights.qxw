@@ -2073,7 +2073,7 @@
    <ValueStyle>0</ValueStyle>
    <Grid Width="4" Height="5" Units="0"/>
    <FxItem ID="21" XPos="2500" YPos="2669.12"/>
-   <FxItem ID="50" XPos="2360.66" YPos="196.721"/>
+   <FxItem ID="50" XPos="2618.72" YPos="164.463"/>
    <FxItem ID="23" XPos="3617.65" YPos="2676.47"/>
    <FxItem ID="22" XPos="3080.65" YPos="2661.29"/>
    <FxItem ID="17" XPos="2822.24" YPos="3547.13"/>
@@ -2088,9 +2088,9 @@
    <FxItem ID="8" XPos="1397.06" YPos="2676.47"/>
    <FxItem ID="11" XPos="4222.22" YPos="4525.25"/>
    <FxItem ID="10" XPos="3646.46" YPos="4525.25"/>
-   <FxItem ID="33" XPos="1852.94" YPos="191.176"/>
+   <FxItem ID="33" XPos="1143.26" YPos="166.983"/>
    <FxItem ID="5" XPos="5169.12" YPos="4066.18"/>
-   <FxItem ID="32" XPos="2120.97" YPos="895.161"/>
+   <FxItem ID="32" XPos="1846.77" YPos="177.419"/>
    <FxItem ID="4" XPos="2393.94" YPos="4515.15"/>
    <FxItem ID="7" XPos="725.806" YPos="2653.23"/>
    <FxItem ID="6" XPos="22.0588" YPos="2669.12"/>
@@ -2113,12 +2113,12 @@
    <Appearance>
     <FrameStyle>None</FrameStyle>
     <ForegroundColor>Default</ForegroundColor>
-    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundColor>4293650148</BackgroundColor>
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
    <Slider Caption="FOH Dim" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="0" Y="0" Width="60" Height="200"/>
+    <WindowState Visible="True" X="360" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2126,9 +2126,9 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="1" Channel="16"/>
+    <Input Universe="1" Channel="23"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="0">0</Channel>
      <Channel Fixture="1">0</Channel>
      <Channel Fixture="2">0</Channel>
@@ -2154,7 +2154,7 @@
     </Appearance>
     <Input Universe="1" Channel="18"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="129">
      <Channel Fixture="0">1</Channel>
      <Channel Fixture="1">1</Channel>
      <Channel Fixture="2">1</Channel>
@@ -2222,7 +2222,7 @@
     </Playback>
    </Slider>
    <Slider Caption="FOH Amb" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="300" Y="0" Width="60" Height="200"/>
+    <WindowState Visible="True" X="0" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2258,7 +2258,7 @@
     </Appearance>
     <Input Universe="1" Channel="17"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="0">5</Channel>
      <Channel Fixture="1">5</Channel>
      <Channel Fixture="2">5</Channel>
@@ -2274,7 +2274,7 @@
     </Playback>
    </Slider>
    <Slider Caption="First Elec" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="360" Y="0" Width="60" Height="200"/>
+    <WindowState Visible="True" X="420" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2282,9 +2282,9 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="1" Channel="23"/>
+    <Input Universe="1" Channel="24"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="13">0</Channel>
      <Channel Fixture="15">0</Channel>
      <Channel Fixture="16">0</Channel>
@@ -2297,7 +2297,7 @@
     </Playback>
    </Slider>
    <Slider Caption="Sec Elec" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="420" Y="0" Width="60" Height="200"/>
+    <WindowState Visible="True" X="480" Y="0" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2305,9 +2305,9 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="1" Channel="24"/>
+    <Input Universe="1" Channel="25"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="200" Value="196">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="6">0</Channel>
      <Channel Fixture="7">0</Channel>
      <Channel Fixture="8">0</Channel>
@@ -2332,7 +2332,7 @@
     </Appearance>
     <Input Universe="1" Channel="5"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="50">0</Channel>
     </Level>
     <Playback>
@@ -2368,7 +2368,7 @@
     </Appearance>
     <Input Universe="1" Channel="7"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="116">
      <Channel Fixture="50">2</Channel>
     </Level>
     <Playback>
@@ -2386,7 +2386,7 @@
     </Appearance>
     <Input Universe="1" Channel="8"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="50">3</Channel>
     </Level>
     <Playback>
@@ -2440,7 +2440,7 @@
     </Appearance>
     <Input Universe="1" Channel="26"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="26">0</Channel>
      <Channel Fixture="27">0</Channel>
      <Channel Fixture="28">0</Channel>
@@ -2463,7 +2463,7 @@
     </Appearance>
     <Input Universe="1" Channel="9"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="5">0</Channel>
     </Level>
     <Playback>
@@ -2481,7 +2481,7 @@
     </Appearance>
     <Input Universe="1" Channel="10"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="43">0</Channel>
     </Level>
     <Playback>
@@ -2499,7 +2499,7 @@
     </Appearance>
     <Input Universe="1" Channel="27"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="32">0</Channel>
     </Level>
     <Playback>
@@ -2517,7 +2517,7 @@
     </Appearance>
     <Input Universe="1" Channel="28"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="251">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="33">0</Channel>
     </Level>
     <Playback>
@@ -2528,13 +2528,13 @@
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4293388263</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="575" Width="560" Height="160"/>
+    <WindowState Visible="True" X="0" Y="745" Width="560" Height="160"/>
     <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
+    <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
@@ -2685,7 +2685,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="7">
+     <Level LowLimit="0" HighLimit="255" Value="5">
       <Channel Fixture="12">0</Channel>
      </Level>
      <Playback>
@@ -2697,13 +2697,13 @@
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4293388263</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="735" Width="500" Height="160"/>
+    <WindowState Visible="True" X="0" Y="920" Width="500" Height="160"/>
     <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
+    <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
@@ -2849,13 +2849,13 @@
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4293388263</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="560" Y="575" Width="380" Height="160"/>
+    <WindowState Visible="True" X="560" Y="740" Width="380" Height="160"/>
     <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
+    <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
@@ -2967,13 +2967,13 @@
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundColor>4293388263</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="500" Y="735" Width="380" Height="160"/>
+    <WindowState Visible="True" X="505" Y="920" Width="380" Height="160"/>
     <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
+    <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
@@ -3084,7 +3084,9 @@
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
-   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal">
+    <Input Universe="1" Channel="31"/>
+   </GrandMaster>
   </Properties>
  </VirtualConsole>
  <SimpleDesk>
