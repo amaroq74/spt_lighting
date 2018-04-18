@@ -650,10 +650,10 @@
    <FixtureVal ID="56">0,0</FixtureVal>
    <FixtureVal ID="57">0,0</FixtureVal>
    <FixtureVal ID="3">0,0</FixtureVal>
-   <FixtureVal ID="32">0,71,1,187,2,47,3,0,4,0,5,0,6,0,7,123,8,204,9,255,10,0</FixtureVal>
-   <FixtureVal ID="33">0,168,1,61,2,47,3,0,4,0,5,0,6,0,7,250,8,120,9,255,10,0</FixtureVal>
-   <FixtureVal ID="34">0,162,1,58,2,47,3,0,4,0,5,0,6,0,7,130,8,115,9,255,10,0</FixtureVal>
-   <FixtureVal ID="35">0,94,1,189,2,47,3,0,4,0,5,0,6,0,7,130,8,169,9,255,10,0</FixtureVal>
+   <FixtureVal ID="32">0,71,1,187,2,47,3,0,4,0,5,0,6,0,7,0,8,204,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,168,1,61,2,47,3,0,4,0,5,0,6,0,7,0,8,120,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,162,1,58,2,47,3,0,4,0,5,0,6,0,7,0,8,141,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,85,1,189,2,44,3,0,4,0,5,0,6,0,7,0,8,169,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,105</FixtureVal>
    <FixtureVal ID="45">0,90</FixtureVal>
    <FixtureVal ID="46">0,105</FixtureVal>
@@ -668,7 +668,7 @@
    <FixtureVal ID="55">0,105</FixtureVal>
    <FixtureVal ID="11">0,155</FixtureVal>
    <FixtureVal ID="18">0,116</FixtureVal>
-   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="40">0,119</FixtureVal>
   </Function>
   <Function ID="1" Type="Chaser" Name="Nifty Fifty">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -676,6 +676,8 @@
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">0</Step>
   </Function>
   <Function ID="5" Type="Scene" Name="Teenager in Love">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1274,7 +1276,7 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="94"/>
+    <Pan Position="85"/>
     <Tilt Position="190"/>
     <Preset ID="17">
      <Type>Position</Type>
@@ -1487,7 +1489,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="123">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="32">7</Channel>
     </Level>
     <Playback>
@@ -1572,7 +1574,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="115">
+    <Level LowLimit="0" HighLimit="255" Value="141">
      <Channel Fixture="34">8</Channel>
     </Level>
     <Playback>
@@ -1589,7 +1591,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="130">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="34">7</Channel>
     </Level>
     <Playback>
@@ -1691,7 +1693,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="250">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="33">7</Channel>
     </Level>
     <Playback>
@@ -1708,7 +1710,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="47">
+    <Level LowLimit="0" HighLimit="255" Value="44">
      <Channel Fixture="35">2</Channel>
     </Level>
     <Playback>
@@ -1793,7 +1795,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="130">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="35">7</Channel>
     </Level>
     <Playback>
@@ -1810,7 +1812,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="119">
      <Channel Fixture="40">0</Channel>
     </Level>
     <Playback>
@@ -2204,7 +2206,7 @@
     </Appearance>
    </Label>
    <Label Caption="Front Of House" ID="85">
-    <WindowState Visible="True" X="125" Y="20" Width="100" Height="30"/>
+    <WindowState Visible="True" X="135" Y="20" Width="100" Height="30"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4294705165</ForegroundColor>
