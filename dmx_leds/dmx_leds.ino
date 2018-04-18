@@ -18,6 +18,7 @@ DMX_Slave dmx_slave ( DMX_SLAVE_CHANNELS );
 
 const int ledPin1   = 6;
 const int ledPin2   = 7;
+const int dmxBase   = 400;
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
@@ -102,7 +103,7 @@ void setup() {
   
    // Set start address to 1, this is also the default setting
    // You can change this address at any time during the program
-   dmx_slave.setStartAddress (200);
+   dmx_slave.setStartAddress (dmxBase);
   
    strip1.begin();
    strip1.show();

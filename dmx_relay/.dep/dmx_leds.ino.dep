@@ -1,0 +1,49 @@
+dmx_leds.o: dmx_leds.ino \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Arduino.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/binary.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/WCharacter.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/WString.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/HardwareSerial.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Stream.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Print.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Printable.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/USBAPI.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Arduino.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/variants/standard/pins_arduino.h \
+ /home/ryan/projects/per/arduino_libraries/libraries/Dmx/Conceptinetics.h \
+ /usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Arduino.h \
+ /home/ryan/projects/per/arduino_libraries/libraries/Dmx/Rdm_Uid.h \
+ /home/ryan/projects/per/arduino_libraries/libraries/Dmx/Rdm_Defines.h \
+ /home/ryan/projects/per/arduino_libraries/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.h
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/binary.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/WCharacter.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/WString.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/HardwareSerial.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Stream.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Print.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Printable.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/USBAPI.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/variants/standard/pins_arduino.h:
+
+/home/ryan/projects/per/arduino_libraries/libraries/Dmx/Conceptinetics.h:
+
+/usr/local/arduino-1.8.2/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+/home/ryan/projects/per/arduino_libraries/libraries/Dmx/Rdm_Uid.h:
+
+/home/ryan/projects/per/arduino_libraries/libraries/Dmx/Rdm_Defines.h:
+
+/home/ryan/projects/per/arduino_libraries/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.h:
