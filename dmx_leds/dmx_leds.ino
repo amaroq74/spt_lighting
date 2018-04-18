@@ -1,6 +1,6 @@
 
 
-#include <Conceptinetics.h>
+#include "Conceptinetics.h"
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
   #include <avr/power.h>
@@ -12,13 +12,13 @@
 // Chan 2 = green
 // Chan 3 = blue
 // Chan 4 = mode
-// Chan 5 = center gap
 
 // Configure a DMX slave controller
 DMX_Slave dmx_slave ( DMX_SLAVE_CHANNELS );
 
 const int ledPin1   = 6;
 const int ledPin2   = 7;
+const int dmxBase   = 400;
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
@@ -103,7 +103,7 @@ void setup() {
   
    // Set start address to 1, this is also the default setting
    // You can change this address at any time during the program
-   dmx_slave.setStartAddress (200);
+   dmx_slave.setStartAddress (dmxBase);
   
    strip1.begin();
    strip1.show();
@@ -117,22 +117,20 @@ void loop() {
    uint8_t green;
    uint8_t blue;
    uint8_t mode;
-   uint8_t gap;
 
    max   = dmx_slave.getChannelValue(1);
    red   = dmx_slave.getChannelValue(2);
    green = dmx_slave.getChannelValue(3);
    blue  = dmx_slave.getChannelValue(4);
    mode  = dmx_slave.getChannelValue(5);
-   gap   = dmx_slave.getChannelValue(6);
 
    if ( red   > max ) red   = max;
    if ( green > max ) green = max;
    if ( blue  > max ) blue  = max;
 
-   if ( mode < 10 ) setAllPixels(strip1.Color(red,green,blue),gap);
-   else if ( mode < 100 ) setRainbow(max,0,gap);
-   else setRainbow(max,(mode-100)*4,gap);
+   if ( mode < 10 ) setAllPixels(strip1.Color(red,green,blue),0);
+   else if ( mode < 100 ) setRainbow(max,0,0);
+   else setRainbow(max,(mode-100)*4,0);
 
    strip1.show();
    strip2.show();
