@@ -750,8 +750,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="163"/>
-    <Tilt Position="58"/>
+    <Pan Position="127"/>
+    <Tilt Position="127"/>
     <Preset ID="16">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -1253,8 +1253,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="169"/>
-    <Tilt Position="61"/>
+    <Pan Position="127"/>
+    <Tilt Position="127"/>
     <Preset ID="16">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -1276,8 +1276,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="85"/>
-    <Tilt Position="190"/>
+    <Pan Position="127"/>
+    <Tilt Position="127"/>
     <Preset ID="17">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -1299,8 +1299,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="71"/>
-    <Tilt Position="188"/>
+    <Pan Position="127"/>
+    <Tilt Position="127"/>
     <Preset ID="16">
      <Type>Position</Type>
      <Name>Home</Name>
