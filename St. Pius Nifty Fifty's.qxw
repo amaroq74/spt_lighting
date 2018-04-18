@@ -4,7 +4,7 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
-  <Author>Patrick Engels</Author>
+  <Author></Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -609,11 +609,73 @@
   <ChannelsGroup ID="7" Name="3LX Blue" Value="0">36,3,37,3,38,3,39,3</ChannelsGroup>
   <ChannelsGroup ID="8" Name="3LX Amber" Value="0">36,4,37,4,38,4,39,4</ChannelsGroup>
   <ChannelsGroup ID="9" Name="3LX Dim" Value="0">36,0,37,0,38,0,39,0</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="A2 S3 - Teen In Love">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,130</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,180</FixtureVal>
+   <FixtureVal ID="36">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="32">0,71,1,187,2,47,3,0,4,0,5,0,6,0,7,123,8,204,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,168,1,61,2,47,3,0,4,0,5,0,6,0,7,250,8,120,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,162,1,58,2,47,3,0,4,0,5,0,6,0,7,130,8,115,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,94,1,189,2,47,3,0,4,0,5,0,6,0,7,130,8,169,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,105</FixtureVal>
+   <FixtureVal ID="45">0,90</FixtureVal>
+   <FixtureVal ID="46">0,105</FixtureVal>
+   <FixtureVal ID="47">0,120</FixtureVal>
+   <FixtureVal ID="48">0,114</FixtureVal>
+   <FixtureVal ID="49">0,127</FixtureVal>
+   <FixtureVal ID="50">0,104</FixtureVal>
+   <FixtureVal ID="51">0,104</FixtureVal>
+   <FixtureVal ID="52">0,104</FixtureVal>
+   <FixtureVal ID="53">0,101</FixtureVal>
+   <FixtureVal ID="54">0,104</FixtureVal>
+   <FixtureVal ID="55">0,105</FixtureVal>
+   <FixtureVal ID="11">0,155</FixtureVal>
+   <FixtureVal ID="18">0,116</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+  </Function>
   <Function ID="1" Type="Chaser" Name="Nifty Fifty">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
   </Function>
   <Function ID="5" Type="Scene" Name="Teenager in Love">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -686,8 +748,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="127"/>
-    <Tilt Position="127"/>
+    <Pan Position="163"/>
+    <Tilt Position="58"/>
     <Preset ID="16">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -706,7 +768,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="248">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="23">1</Channel>
      <Channel Fixture="24">1</Channel>
      <Channel Fixture="25">1</Channel>
@@ -731,7 +793,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="191">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="23">2</Channel>
      <Channel Fixture="24">2</Channel>
      <Channel Fixture="25">2</Channel>
@@ -756,7 +818,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="23">3</Channel>
      <Channel Fixture="24">3</Channel>
      <Channel Fixture="25">3</Channel>
@@ -781,7 +843,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="11">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="23">4</Channel>
      <Channel Fixture="24">4</Channel>
      <Channel Fixture="25">4</Channel>
@@ -806,7 +868,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="50">
      <Channel Fixture="23">0</Channel>
      <Channel Fixture="24">0</Channel>
      <Channel Fixture="25">0</Channel>
@@ -831,7 +893,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="243">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="0">0</Channel>
     </Level>
     <Playback>
@@ -848,7 +910,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="232">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="1">0</Channel>
     </Level>
     <Playback>
@@ -865,7 +927,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="232">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="2">0</Channel>
     </Level>
     <Playback>
@@ -882,7 +944,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="213">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="4">0</Channel>
     </Level>
     <Playback>
@@ -899,7 +961,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="220">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="5">0</Channel>
     </Level>
     <Playback>
@@ -916,7 +978,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="130">
      <Channel Fixture="6">0</Channel>
     </Level>
     <Playback>
@@ -1055,7 +1117,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="29">
+    <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="36">2</Channel>
      <Channel Fixture="37">2</Channel>
      <Channel Fixture="38">2</Channel>
@@ -1075,7 +1137,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="250">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="36">3</Channel>
      <Channel Fixture="37">3</Channel>
      <Channel Fixture="38">3</Channel>
@@ -1095,7 +1157,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="15">
+    <Level LowLimit="0" HighLimit="255" Value="14">
      <Channel Fixture="36">4</Channel>
      <Channel Fixture="37">4</Channel>
      <Channel Fixture="38">4</Channel>
@@ -1115,7 +1177,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="130">
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="36">0</Channel>
      <Channel Fixture="37">0</Channel>
      <Channel Fixture="38">0</Channel>
@@ -1189,8 +1251,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="127"/>
-    <Tilt Position="127"/>
+    <Pan Position="169"/>
+    <Tilt Position="61"/>
     <Preset ID="16">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -1212,8 +1274,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="127"/>
-    <Tilt Position="127"/>
+    <Pan Position="94"/>
+    <Tilt Position="190"/>
     <Preset ID="17">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -1235,8 +1297,8 @@
      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
     </Fixture>
-    <Pan Position="127"/>
-    <Tilt Position="127"/>
+    <Pan Position="71"/>
+    <Tilt Position="188"/>
     <Preset ID="16">
      <Type>Position</Type>
      <Name>Home</Name>
@@ -1306,7 +1368,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="155">
      <Channel Fixture="11">0</Channel>
     </Level>
     <Playback>
@@ -1323,7 +1385,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="116">
      <Channel Fixture="18">0</Channel>
     </Level>
     <Playback>
@@ -1782,7 +1844,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="105">
      <Channel Fixture="44">0</Channel>
     </Level>
     <Playback>
@@ -1816,7 +1878,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="105">
      <Channel Fixture="46">0</Channel>
     </Level>
     <Playback>
@@ -1833,7 +1895,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="120">
      <Channel Fixture="47">0</Channel>
     </Level>
     <Playback>
@@ -1850,7 +1912,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="114">
      <Channel Fixture="48">0</Channel>
     </Level>
     <Playback>
@@ -1867,7 +1929,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="127">
      <Channel Fixture="49">0</Channel>
     </Level>
     <Playback>
@@ -1969,7 +2031,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="104">
+    <Level LowLimit="0" HighLimit="255" Value="105">
      <Channel Fixture="55">0</Channel>
     </Level>
     <Playback>
@@ -2300,23 +2362,23 @@
    <CueStack ID="0">
     <Speed FadeIn="0" FadeOut="0" Duration="4294967295"/>
     <Cue Name="Cue 1">
-     <Value Channel="155">255</Value>
-     <Value Channel="335">255</Value>
      <Value Channel="256">255</Value>
-     <Value Channel="125">255</Value>
-     <Value Channel="185">255</Value>
-     <Value Channel="135">255</Value>
-     <Value Channel="345">255</Value>
+     <Value Channel="155">255</Value>
+     <Value Channel="325">255</Value>
      <Value Channel="105">255</Value>
-     <Value Channel="165">255</Value>
+     <Value Channel="276">255</Value>
+     <Value Channel="345">255</Value>
+     <Value Channel="175">255</Value>
+     <Value Channel="125">255</Value>
+     <Value Channel="296">255</Value>
      <Value Channel="145">255</Value>
      <Value Channel="315">255</Value>
-     <Value Channel="325">255</Value>
-     <Value Channel="296">255</Value>
-     <Value Channel="236">255</Value>
+     <Value Channel="335">255</Value>
+     <Value Channel="165">255</Value>
      <Value Channel="115">255</Value>
-     <Value Channel="276">255</Value>
-     <Value Channel="175">255</Value>
+     <Value Channel="185">255</Value>
+     <Value Channel="236">255</Value>
+     <Value Channel="135">255</Value>
      <Speed FadeIn="8411" FadeOut="4192" Duration="3356"/>
     </Cue>
     <Cue Name="Cue 2">
@@ -2324,10 +2386,10 @@
     </Cue>
     <Cue Name="Cue 3">
      <Value Channel="1">0</Value>
-     <Value Channel="12">0</Value>
+     <Value Channel="5">0</Value>
      <Value Channel="8">0</Value>
      <Value Channel="9">0</Value>
-     <Value Channel="5">0</Value>
+     <Value Channel="12">0</Value>
      <Speed FadeIn="33" FadeOut="22" Duration="28"/>
     </Cue>
    </CueStack>
