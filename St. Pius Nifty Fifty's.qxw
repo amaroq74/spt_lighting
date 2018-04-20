@@ -825,7 +825,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">1</Channel>
       <Channel Fixture="24">1</Channel>
       <Channel Fixture="25">1</Channel>
@@ -851,7 +851,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">2</Channel>
       <Channel Fixture="24">2</Channel>
       <Channel Fixture="25">2</Channel>
@@ -877,7 +877,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
       <Channel Fixture="25">3</Channel>
@@ -903,7 +903,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">4</Channel>
       <Channel Fixture="24">4</Channel>
       <Channel Fixture="25">4</Channel>
@@ -929,7 +929,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">0</Channel>
       <Channel Fixture="24">0</Channel>
       <Channel Fixture="25">0</Channel>
@@ -971,7 +971,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">0</Channel>
      </Level>
      <Playback>
@@ -989,7 +989,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="1">0</Channel>
      </Level>
      <Playback>
@@ -1007,7 +1007,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">0</Channel>
      </Level>
      <Playback>
@@ -1025,7 +1025,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="4">0</Channel>
      </Level>
      <Playback>
@@ -1043,7 +1043,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="5">0</Channel>
      </Level>
      <Playback>
@@ -1061,7 +1061,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="6">0</Channel>
      </Level>
      <Playback>
@@ -1095,7 +1095,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="8">0</Channel>
      </Level>
      <Playback>
@@ -1113,7 +1113,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="9">0</Channel>
      </Level>
      <Playback>
@@ -1131,7 +1131,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="10">0</Channel>
      </Level>
      <Playback>
@@ -1149,7 +1149,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">0</Channel>
      </Level>
      <Playback>
@@ -1167,7 +1167,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="13">0</Channel>
      </Level>
      <Playback>
@@ -1185,7 +1185,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="14">0</Channel>
      </Level>
      <Playback>
@@ -1219,7 +1219,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">1</Channel>
       <Channel Fixture="37">1</Channel>
       <Channel Fixture="38">1</Channel>
@@ -1240,7 +1240,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">2</Channel>
       <Channel Fixture="37">2</Channel>
       <Channel Fixture="38">2</Channel>
@@ -1261,7 +1261,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">4</Channel>
       <Channel Fixture="37">4</Channel>
       <Channel Fixture="38">4</Channel>
@@ -1282,7 +1282,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">3</Channel>
       <Channel Fixture="37">3</Channel>
       <Channel Fixture="38">3</Channel>
@@ -1303,7 +1303,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">0</Channel>
       <Channel Fixture="37">0</Channel>
       <Channel Fixture="38">0</Channel>
@@ -1340,7 +1340,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="15">0</Channel>
      </Level>
      <Playback>
@@ -1358,7 +1358,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="16">0</Channel>
      </Level>
      <Playback>
@@ -1376,7 +1376,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="17">0</Channel>
      </Level>
      <Playback>
@@ -1394,7 +1394,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">0</Channel>
      </Level>
      <Playback>
@@ -1412,7 +1412,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="20">0</Channel>
      </Level>
      <Playback>
@@ -1430,7 +1430,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="21">0</Channel>
      </Level>
      <Playback>
@@ -2354,7 +2354,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">0</Channel>
      </Level>
      <Playback>
@@ -2460,7 +2460,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="22">0</Channel>
      </Level>
      <Playback>
