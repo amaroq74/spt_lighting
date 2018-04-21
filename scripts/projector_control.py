@@ -20,7 +20,7 @@ def rxData(data):
     global curState
     global curTime 
 
-    newState = (data[inAddr] > 127)
+    newState = (data[inAddr-1] < 127)
     newTime = time.time()
 
     if newTime - curTime > 60:

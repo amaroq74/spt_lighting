@@ -619,6 +619,16 @@
    <Address>409</Address>
    <Channels>6</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>60</ID>
+   <Name>Projectors</Name>
+   <Universe>0</Universe>
+   <Address>429</Address>
+   <Channels>1</Channels>
+  </Fixture>
   <ChannelsGroup ID="0" Name="FOH Red" Value="0">23,1,24,1,25,1,26,1,27,1,28,1,29,1,30,1,31,1</ChannelsGroup>
   <ChannelsGroup ID="1" Name="FOH Green" Value="0">23,2,24,2,25,2,26,2,27,2,28,2,29,2,30,2,31,2</ChannelsGroup>
   <ChannelsGroup ID="2" Name="FOH Blue" Value="0">23,3,24,3,25,3,26,3,27,3,28,3,29,3,30,3,31,3</ChannelsGroup>
@@ -629,8 +639,9 @@
   <ChannelsGroup ID="7" Name="3LX Blue" Value="0">36,3,37,3,38,3,39,3</ChannelsGroup>
   <ChannelsGroup ID="8" Name="3LX Amber" Value="0">36,4,37,4,38,4,39,4</ChannelsGroup>
   <ChannelsGroup ID="9" Name="3LX Dim" Value="0">36,0,37,0,38,0,39,0</ChannelsGroup>
-  <Function ID="0" Type="Scene" Name="A2 S3 - Teen In Love">
+  <Function ID="0" Type="Scene" Name="A2 S3 Teen In Love Heart">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</ChannelGroupsVal>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -689,46 +700,353 @@
    <FixtureVal ID="11">0,155</FixtureVal>
    <FixtureVal ID="18">0,116</FixtureVal>
    <FixtureVal ID="40">0,119</FixtureVal>
+   <FixtureVal ID="60">0,255</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="1" Type="Chaser" Name="Nifty Fifty">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="PerStep" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="500" Hold="0" FadeOut="0">0</Step>
+   <Step Number="0" FadeIn="500" Hold="0" FadeOut="0">4</Step>
+   <Step Number="1" FadeIn="500" Hold="0" FadeOut="0">3</Step>
+   <Step Number="2" FadeIn="200" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="3" FadeIn="200" Hold="0" FadeOut="0" Note="Page 93">7</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="5" FadeIn="500" Hold="0" FadeOut="0">0</Step>
+   <Step Number="6" FadeIn="500" Hold="4294967294" FadeOut="0">7</Step>
+   <Step Number="7" FadeIn="200" Hold="0" FadeOut="0">6</Step>
+   <Step Number="8" FadeIn="200" Hold="0" FadeOut="0">10</Step>
+   <Step Number="9" FadeIn="500" Hold="0" FadeOut="0">11</Step>
+   <Step Number="10" FadeIn="200" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="11" FadeIn="500" Hold="0" FadeOut="0">13</Step>
+   <Step Number="12" FadeIn="500" Hold="0" FadeOut="0">12</Step>
+   <Step Number="13" FadeIn="500" Hold="0" FadeOut="0">14</Step>
+   <Step Number="14" FadeIn="500" Hold="4294967294" FadeOut="0">12</Step>
+   <Step Number="15" FadeIn="0" Hold="4294967294" FadeOut="0">13</Step>
+   <Step Number="16" FadeIn="0" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">15</Step>
   </Function>
-  <Function ID="5" Type="Scene" Name="Teenager in Love">
+  <Function ID="3" Type="Scene" Name="A1 - S1 Front">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,243</FixtureVal>
-   <FixtureVal ID="1">0,232</FixtureVal>
-   <FixtureVal ID="2">0,232</FixtureVal>
-   <FixtureVal ID="4">0,213</FixtureVal>
-   <FixtureVal ID="5">0,220</FixtureVal>
-   <FixtureVal ID="14">0,180</FixtureVal>
-   <FixtureVal ID="36">0,130,2,29,3,250,4,15</FixtureVal>
-   <FixtureVal ID="37">0,130,2,29,3,250,4,15</FixtureVal>
-   <FixtureVal ID="38">0,130,2,29,3,250,4,15</FixtureVal>
-   <FixtureVal ID="39">0,130,2,29,3,250,4,15</FixtureVal>
-   <FixtureVal ID="23">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="24">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="25">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="26">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="27">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="28">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="29">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="30">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="31">1,248,2,191,4,11</FixtureVal>
-   <FixtureVal ID="32">0,67,1,184,8,204,9,255</FixtureVal>
-   <FixtureVal ID="33">0,174,1,61,8,120,9,255</FixtureVal>
-   <FixtureVal ID="34">0,178,1,68,8,115,9,255</FixtureVal>
-   <FixtureVal ID="35">0,95,1,184,8,169,9,255</FixtureVal>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,71,1,187,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,168,1,61,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,162,1,58,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,165,1,12,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,255,2,255,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,255,2,255,3,255,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="All Off">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Test1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="8">0,244</FixtureVal>
+   <FixtureVal ID="9">0,244</FixtureVal>
+   <FixtureVal ID="10">0,244</FixtureVal>
+   <FixtureVal ID="12">0,244</FixtureVal>
+   <FixtureVal ID="13">0,244</FixtureVal>
+   <FixtureVal ID="14">0,244</FixtureVal>
+   <FixtureVal ID="36">0,255,1,204,2,237,3,218,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,255,1,204,2,237,3,218,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,255,1,204,2,237,3,218,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,255,1,204,2,237,3,218,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,203</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,241,2,251,3,224,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,238,2,251,3,201,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,71,1,187,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,168,1,61,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,162,1,58,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,165,1,12,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,255,1,255,2,255,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,255,1,255,2,255,3,255,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Work Ligths">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,172</FixtureVal>
+   <FixtureVal ID="9">0,172</FixtureVal>
+   <FixtureVal ID="10">0,172</FixtureVal>
+   <FixtureVal ID="12">0,172</FixtureVal>
+   <FixtureVal ID="13">0,172</FixtureVal>
+   <FixtureVal ID="14">0,172</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,166</FixtureVal>
+   <FixtureVal ID="16">0,166</FixtureVal>
+   <FixtureVal ID="17">0,166</FixtureVal>
+   <FixtureVal ID="19">0,166</FixtureVal>
+   <FixtureVal ID="20">0,166</FixtureVal>
+   <FixtureVal ID="21">0,166</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="A3 S3 Teen In Love Setup">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,3</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,71,1,187,2,47,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,168,1,61,2,47,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,162,1,58,2,47,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,85,1,189,2,44,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,105</FixtureVal>
    <FixtureVal ID="45">0,90</FixtureVal>
+   <FixtureVal ID="46">0,105</FixtureVal>
+   <FixtureVal ID="47">0,120</FixtureVal>
+   <FixtureVal ID="48">0,114</FixtureVal>
+   <FixtureVal ID="49">0,127</FixtureVal>
    <FixtureVal ID="50">0,104</FixtureVal>
    <FixtureVal ID="51">0,104</FixtureVal>
    <FixtureVal ID="52">0,104</FixtureVal>
    <FixtureVal ID="53">0,101</FixtureVal>
    <FixtureVal ID="54">0,104</FixtureVal>
-   <FixtureVal ID="55">0,104</FixtureVal>
+   <FixtureVal ID="55">0,105</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="Sign Chace - 3" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -738,6 +1056,454 @@
   <Function ID="9" Type="Show" Name="Show">
    <TimeDivision Type="Time" BPM="120"/>
    <Track ID="0" Name="Track 1" isMute="0"/>
+  </Function>
+  <Function ID="10" Type="Scene" Name="A2 S3A Front of Curtain Prep">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,172</FixtureVal>
+   <FixtureVal ID="9">0,172</FixtureVal>
+   <FixtureVal ID="10">0,172</FixtureVal>
+   <FixtureVal ID="12">0,172</FixtureVal>
+   <FixtureVal ID="13">0,172</FixtureVal>
+   <FixtureVal ID="14">0,172</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,166</FixtureVal>
+   <FixtureVal ID="16">0,166</FixtureVal>
+   <FixtureVal ID="17">0,166</FixtureVal>
+   <FixtureVal ID="19">0,166</FixtureVal>
+   <FixtureVal ID="20">0,166</FixtureVal>
+   <FixtureVal ID="21">0,166</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,0,1,246,2,234,3,254,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="A2 S3A Front of Curtain">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,172</FixtureVal>
+   <FixtureVal ID="9">0,172</FixtureVal>
+   <FixtureVal ID="10">0,172</FixtureVal>
+   <FixtureVal ID="12">0,172</FixtureVal>
+   <FixtureVal ID="13">0,172</FixtureVal>
+   <FixtureVal ID="14">0,172</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,166</FixtureVal>
+   <FixtureVal ID="16">0,166</FixtureVal>
+   <FixtureVal ID="17">0,166</FixtureVal>
+   <FixtureVal ID="19">0,166</FixtureVal>
+   <FixtureVal ID="20">0,166</FixtureVal>
+   <FixtureVal ID="21">0,166</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,248,2,237,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="Diner Scenes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="8">0,255</FixtureVal>
+   <FixtureVal ID="9">0,255</FixtureVal>
+   <FixtureVal ID="10">0,255</FixtureVal>
+   <FixtureVal ID="12">0,255</FixtureVal>
+   <FixtureVal ID="13">0,255</FixtureVal>
+   <FixtureVal ID="14">0,255</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,255</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="Diner Scenes Prep">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,55</FixtureVal>
+   <FixtureVal ID="9">0,55</FixtureVal>
+   <FixtureVal ID="10">0,55</FixtureVal>
+   <FixtureVal ID="12">0,55</FixtureVal>
+   <FixtureVal ID="13">0,55</FixtureVal>
+   <FixtureVal ID="14">0,55</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,0,1,222,2,221,3,251,4,253,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,124,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,124,2,188,3,241,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="Diner Scenes 4th Wall">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="8">0,255</FixtureVal>
+   <FixtureVal ID="9">0,255</FixtureVal>
+   <FixtureVal ID="10">0,255</FixtureVal>
+   <FixtureVal ID="12">0,255</FixtureVal>
+   <FixtureVal ID="13">0,255</FixtureVal>
+   <FixtureVal ID="14">0,255</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="42">0,255</FixtureVal>
+   <FixtureVal ID="43">0,255</FixtureVal>
+   <FixtureVal ID="41">0,255</FixtureVal>
+   <FixtureVal ID="22">0,255</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="Diner Scenes Front of stage">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="42">0,255</FixtureVal>
+   <FixtureVal ID="43">0,255</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,255</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="A2 S3 Teen In Love">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,130</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,255,1,0,2,0,3,255,4,14,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="23">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,50,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,255</FixtureVal>
+   <FixtureVal ID="32">0,71,1,187,2,47,3,0,4,0,5,0,6,0,7,0,8,204,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,168,1,61,2,47,3,0,4,0,5,0,6,0,7,0,8,120,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,162,1,58,2,47,3,0,4,0,5,0,6,0,7,0,8,141,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,85,1,189,2,44,3,0,4,0,5,0,6,0,7,0,8,169,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,105</FixtureVal>
+   <FixtureVal ID="45">0,90</FixtureVal>
+   <FixtureVal ID="46">0,105</FixtureVal>
+   <FixtureVal ID="47">0,120</FixtureVal>
+   <FixtureVal ID="48">0,114</FixtureVal>
+   <FixtureVal ID="49">0,127</FixtureVal>
+   <FixtureVal ID="50">0,104</FixtureVal>
+   <FixtureVal ID="51">0,104</FixtureVal>
+   <FixtureVal ID="52">0,104</FixtureVal>
+   <FixtureVal ID="53">0,101</FixtureVal>
+   <FixtureVal ID="54">0,104</FixtureVal>
+   <FixtureVal ID="55">0,105</FixtureVal>
+   <FixtureVal ID="11">0,155</FixtureVal>
+   <FixtureVal ID="18">0,116</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -756,7 +1522,7 @@
     <Font>Default</Font>
    </Appearance>
    <Clock Type="Clock" Caption="" ID="82">
-    <WindowState Visible="True" X="800" Y="825" Width="150" Height="50"/>
+    <WindowState Visible="True" X="525" Y="760" Width="310" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -765,24 +1531,8 @@
      <Font>.SF NS Text,-1,28,5,75,0,0,0,0,0,Regular</Font>
     </Appearance>
    </Clock>
-   <Clock Type="Stopwatch" Caption="" ID="94">
-    <WindowState Visible="True" X="985" Y="825" Width="150" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>4294705176</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>.SF NS Text,-1,28,5,75,0,0,0,0,0,Regular</Font>
-    </Appearance>
-    <PlayPause>
-     <Key>S</Key>
-    </PlayPause>
-    <Reset>
-     <Key>R</Key>
-    </Reset>
-   </Clock>
    <CueList Caption="Cue list" ID="96">
-    <WindowState Visible="True" X="785" Y="885" Width="715" Height="725"/>
+    <WindowState Visible="True" X="775" Y="835" Width="730" Height="770"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4293918736</ForegroundColor>
@@ -793,8 +1543,12 @@
     <Chaser>1</Chaser>
     <NextPrevBehavior>3</NextPrevBehavior>
     <Crossfade Blend="True" Linked="True"/>
-    <Next/>
-    <Previous/>
+    <Next>
+     <Input Universe="1" Channel="15"/>
+    </Next>
+    <Previous>
+     <Input Universe="1" Channel="14"/>
+    </Previous>
     <Playback/>
     <Stop/>
     <SlidersMode>Crossfade</SlidersMode>
@@ -823,8 +1577,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="16"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">1</Channel>
       <Channel Fixture="24">1</Channel>
@@ -849,8 +1606,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="17"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">2</Channel>
       <Channel Fixture="24">2</Channel>
@@ -875,8 +1635,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="18"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
@@ -901,8 +1664,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="19"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">4</Channel>
       <Channel Fixture="24">4</Channel>
@@ -927,8 +1693,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="20"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">0</Channel>
       <Channel Fixture="24">0</Channel>
@@ -969,8 +1738,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="21"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">0</Channel>
      </Level>
@@ -987,8 +1759,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="21"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="1">0</Channel>
      </Level>
@@ -1005,8 +1780,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="21"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">0</Channel>
      </Level>
@@ -1023,8 +1801,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="21"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="4">0</Channel>
      </Level>
@@ -1041,8 +1822,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="21"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="5">0</Channel>
      </Level>
@@ -1059,8 +1843,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="21"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="6">0</Channel>
      </Level>
@@ -1084,6 +1871,9 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
+    <Enable>
+     <Input Universe="1" Channel="22"/>
+    </Enable>
     <Slider Caption="2LX #1" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
@@ -1093,8 +1883,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="22"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="8">0</Channel>
      </Level>
@@ -1111,8 +1904,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="22"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="9">0</Channel>
      </Level>
@@ -1129,8 +1925,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="22"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="10">0</Channel>
      </Level>
@@ -1147,8 +1946,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="22"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">0</Channel>
      </Level>
@@ -1165,8 +1967,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="22"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="13">0</Channel>
      </Level>
@@ -1183,8 +1988,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="22"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="14">0</Channel>
      </Level>
@@ -1217,8 +2025,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="0"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">1</Channel>
       <Channel Fixture="37">1</Channel>
@@ -1238,8 +2049,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="1"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">2</Channel>
       <Channel Fixture="37">2</Channel>
@@ -1251,7 +2065,7 @@
      </Playback>
     </Slider>
     <Slider Caption="3LX Amber" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -1259,8 +2073,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="3"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">4</Channel>
       <Channel Fixture="37">4</Channel>
@@ -1272,7 +2089,7 @@
      </Playback>
     </Slider>
     <Slider Caption="3LX Blue" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -1280,8 +2097,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="2"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">3</Channel>
       <Channel Fixture="37">3</Channel>
@@ -1301,8 +2121,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="4"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="36">0</Channel>
       <Channel Fixture="37">0</Channel>
@@ -1338,8 +2161,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="23"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="15">0</Channel>
      </Level>
@@ -1356,8 +2182,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="23"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="16">0</Channel>
      </Level>
@@ -1374,8 +2203,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="23"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="17">0</Channel>
      </Level>
@@ -1392,8 +2224,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="23"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">0</Channel>
      </Level>
@@ -1410,8 +2245,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="23"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="20">0</Channel>
      </Level>
@@ -1428,8 +2266,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="23"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="21">0</Channel>
      </Level>
@@ -1463,7 +2304,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">2</Channel>
      </Level>
@@ -1481,7 +2324,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">3</Channel>
      </Level>
@@ -1499,7 +2344,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">4</Channel>
      </Level>
@@ -1517,7 +2364,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">5</Channel>
      </Level>
@@ -1534,8 +2383,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="12"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">8</Channel>
      </Level>
@@ -1553,7 +2405,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">7</Channel>
      </Level>
@@ -1610,7 +2464,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">2</Channel>
      </Level>
@@ -1628,7 +2484,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">3</Channel>
      </Level>
@@ -1646,7 +2504,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">4</Channel>
      </Level>
@@ -1664,7 +2524,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">5</Channel>
      </Level>
@@ -1681,8 +2543,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="12"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">8</Channel>
      </Level>
@@ -1700,7 +2565,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">7</Channel>
      </Level>
@@ -1757,7 +2624,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">2</Channel>
      </Level>
@@ -1775,7 +2644,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">3</Channel>
      </Level>
@@ -1793,7 +2664,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">4</Channel>
      </Level>
@@ -1811,7 +2684,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">5</Channel>
      </Level>
@@ -1828,8 +2703,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="12"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">8</Channel>
      </Level>
@@ -1847,7 +2725,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">7</Channel>
      </Level>
@@ -1904,7 +2784,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">2</Channel>
      </Level>
@@ -1922,7 +2804,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">3</Channel>
      </Level>
@@ -1940,7 +2824,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">4</Channel>
      </Level>
@@ -1958,7 +2844,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">5</Channel>
      </Level>
@@ -1975,8 +2863,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="12"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">8</Channel>
      </Level>
@@ -1994,7 +2885,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">7</Channel>
      </Level>
@@ -2050,8 +2943,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="44">0</Channel>
      </Level>
@@ -2068,8 +2964,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="45">0</Channel>
      </Level>
@@ -2086,8 +2985,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="46">0</Channel>
      </Level>
@@ -2104,8 +3006,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="47">0</Channel>
      </Level>
@@ -2122,8 +3027,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="48">0</Channel>
      </Level>
@@ -2140,8 +3048,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="49">0</Channel>
      </Level>
@@ -2174,8 +3085,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="50">0</Channel>
      </Level>
@@ -2192,8 +3106,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="51">0</Channel>
      </Level>
@@ -2210,8 +3127,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="52">0</Channel>
      </Level>
@@ -2228,8 +3148,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="53">0</Channel>
      </Level>
@@ -2246,8 +3169,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="54">0</Channel>
      </Level>
@@ -2264,8 +3190,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="55">0</Channel>
      </Level>
@@ -2298,8 +3227,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="27"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="43">0</Channel>
      </Level>
@@ -2316,8 +3248,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="27"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="42">0</Channel>
      </Level>
@@ -2334,8 +3269,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="28"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="41">0</Channel>
      </Level>
@@ -2352,8 +3290,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="25"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">0</Channel>
      </Level>
@@ -2370,8 +3311,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="26"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="3">0</Channel>
      </Level>
@@ -2404,8 +3348,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="29"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="11">0</Channel>
      </Level>
@@ -2422,8 +3369,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="30"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="18">0</Channel>
      </Level>
@@ -2440,8 +3390,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="31"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="40">0</Channel>
      </Level>
@@ -2458,8 +3411,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="24"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="22">0</Channel>
      </Level>
@@ -2476,7 +3432,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1150" Y="505" Width="125" Height="255"/>
+    <WindowState Visible="True" X="1150" Y="505" Width="200" Height="250"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -2493,7 +3449,9 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="56">0</Channel>
      </Level>
@@ -2510,11 +3468,32 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Input Universe="1" Channel="13"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="57">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Proj" ID="84" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="60">0</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -2537,7 +3516,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Wall Dim" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="5" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="225" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2545,8 +3524,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="11"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">0</Channel>
       <Channel Fixture="59">0</Channel>
@@ -2556,7 +3538,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Red" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="60" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2564,8 +3546,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="7"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">1</Channel>
       <Channel Fixture="59">1</Channel>
@@ -2575,7 +3560,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Grn" ID="28" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="115" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2583,8 +3568,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="8"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">2</Channel>
       <Channel Fixture="59">2</Channel>
@@ -2594,7 +3582,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Blu" ID="29" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="175" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="115" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2602,8 +3590,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="9"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">3</Channel>
       <Channel Fixture="59">3</Channel>
@@ -2613,7 +3604,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Func" ID="83" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="225" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="170" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2621,8 +3612,11 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="1" Channel="10"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset/>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">4</Channel>
       <Channel Fixture="59">4</Channel>
@@ -2661,6 +3655,9 @@
      <Value Channel="276">255</Value>
      <Value Channel="155">255</Value>
      <Speed FadeIn="8411" FadeOut="4192" Duration="3356"/>
+    </Cue>
+    <Cue Name="Cue 4">
+     <Speed FadeIn="0" FadeOut="0" Duration="0"/>
     </Cue>
     <Cue Name="Cue 2">
      <Speed FadeIn="0" FadeOut="5121" Duration="7096"/>
