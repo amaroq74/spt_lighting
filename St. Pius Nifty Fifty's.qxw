@@ -4,7 +4,7 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
-  <Author></Author>
+  <Author>Patrick Engels</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -600,9 +600,9 @@
    <Channels>1</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Custom</Manufacturer>
-   <Model>WallLed</Model>
-   <Mode>Standard</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>6 Channel</Mode>
    <ID>58</ID>
    <Name>Wall LED 1</Name>
    <Universe>0</Universe>
@@ -610,9 +610,9 @@
    <Channels>6</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Custom</Manufacturer>
-   <Model>WallLed</Model>
-   <Mode>Standard</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>6 Channel</Mode>
    <ID>59</ID>
    <Name>Wall Led 2</Name>
    <Universe>0</Universe>
@@ -1528,7 +1528,7 @@
      <ForegroundColor>4294967295</ForegroundColor>
      <BackgroundColor>4278190080</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
-     <Font>.SF NS Text,-1,28,5,75,0,0,0,0,0,Regular</Font>
+     <Font>.SF NS Text,13,-1,5,50,0,0,0,0,0</Font>
     </Appearance>
    </Clock>
    <CueList Caption="Cue list" ID="96">
@@ -3479,7 +3479,7 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Proj" ID="84" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="Proj shut" ID="84" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -3637,23 +3637,23 @@
    <CueStack ID="0">
     <Speed FadeIn="0" FadeOut="0" Duration="4294967295"/>
     <Cue Name="Cue 1">
-     <Value Channel="256">255</Value>
-     <Value Channel="135">255</Value>
      <Value Channel="185">255</Value>
-     <Value Channel="125">255</Value>
-     <Value Channel="345">255</Value>
-     <Value Channel="105">255</Value>
-     <Value Channel="165">255</Value>
-     <Value Channel="315">255</Value>
      <Value Channel="325">255</Value>
-     <Value Channel="145">255</Value>
-     <Value Channel="296">255</Value>
      <Value Channel="236">255</Value>
-     <Value Channel="175">255</Value>
-     <Value Channel="335">255</Value>
-     <Value Channel="115">255</Value>
-     <Value Channel="276">255</Value>
+     <Value Channel="256">255</Value>
+     <Value Channel="165">255</Value>
      <Value Channel="155">255</Value>
+     <Value Channel="115">255</Value>
+     <Value Channel="135">255</Value>
+     <Value Channel="296">255</Value>
+     <Value Channel="125">255</Value>
+     <Value Channel="315">255</Value>
+     <Value Channel="145">255</Value>
+     <Value Channel="335">255</Value>
+     <Value Channel="105">255</Value>
+     <Value Channel="345">255</Value>
+     <Value Channel="175">255</Value>
+     <Value Channel="276">255</Value>
      <Speed FadeIn="8411" FadeOut="4192" Duration="3356"/>
     </Cue>
     <Cue Name="Cue 4">
