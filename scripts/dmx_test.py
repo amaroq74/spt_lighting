@@ -1,75 +1,35 @@
-
-import array
 from ola.ClientWrapper import ClientWrapper
+import time
 
-wrapper = None
-loop_count = 0
-TICK_INTERVAL = 100  # in ms
-
-def DmxSent(state):
-  if not state.Succeeded():
-    wrapper.Stop()
-
-def SendDMXFrame():
-  # schdule a function call in 100ms
-  # we do this first in case the frame computation takes a long time.
-  wrapper.AddEvent(TICK_INTERVAL, SendDMXFrame)
-
-  # compute frame here
-  data = array.array('B')
-  global loop_count
-  data.append(loop_count % 255)
-  loop_count += 1
-
-  # send
-  wrapper.Client().SendDmx(1, data, DmxSent)
-
-wrapper = ClientWrapper()
-wrapper.AddEvent(TICK_INTERVAL, SendDMXFrame)
-wrapper.Run()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-from ola.ClientWrapper import ClientWrapper
-import array
-
+inUniverse  = 1
 outUniverse = 3
 client = None
+last = 0
+tme  = int(time.time())
 
 def txData(status):
   if not status.Succeeded():
     print('Error: %s' % status.message)
 
+def rxData(data):
+    print("got data")
+    global last
+    global tme
 
-while True:
-    data = array.array(10)
-    i = 0
+    for i in range(len(data)):
+        data[i] = 0
 
-    time.sleep(10)
+    cur = int(time.time())
 
-    if i == 0:
-        i = 255
-    else
-        i = 0
+    if cur != tme:
+        if last == 0:
+            last = 255
+        else:
+            last = 0
+
+        data[0] = last
+        print("Sending: {}".format(last))
+        tme = cur
 
     client.SendDmx(outUniverse,data,txData)
 
