@@ -5153,7 +5153,7 @@
    </Button>
   </Frame>
   <Properties>
-   <Size Width="1920" Height="2400"/>
+     <Size Width="1520" Height="1610"/>
    <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
