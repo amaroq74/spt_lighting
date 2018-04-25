@@ -10,7 +10,7 @@ def txData(status):
 
 def rxData(data):
     for i in range(len(data)):
-        if data[i] < 10:
+        if data[i] < 15:
             data[i] = 0
 
     client.SendDmx(outUniverse,data,txData)
