@@ -7,25 +7,24 @@ import dlipower
 inUniverse  = 1
 inAddr      = 509
 
-ps1 = dlipower.PowerSwitch(hostname="gymps1.pius.org", userid="root", password="root")
+ps1 = dlipower.PowerSwitch(hostname="172.16.50.120", userid="admin", password="1234")
 
 curState = [None, None, None, None]
 
 def rxData(data):
     global curState
-
+    newState = [None, None, None, None]
 
     for i in range(len(curState)):
-        newState[i] = (data[inAddr-1+i] < 127)
+        newState[i] = (data[inAddr-1+i] > 127)
 
         if newState[i] != curState[i]:
             curState[i] = newState[i]
-            if newState[i]:
-                switch.on(i)
+            if curState[i]:
+                ps1.on(i+1)
             else:
-                switch.off(i)
-        print("New ps {} state = {}".format(i,curState))
-
+                ps1.off(i+1)
+            print("New ps {} state = {}".format(i,curState))
 
 wrapper = ClientWrapper()
 client = wrapper.Client()
