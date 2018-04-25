@@ -770,12 +770,12 @@
    <FixtureVal ID="55">0,143</FixtureVal>
    <FixtureVal ID="56">0,0</FixtureVal>
    <FixtureVal ID="57">0,0</FixtureVal>
-   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="58">0,17,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,17,1,0,2,0,3,255,4,0,5,0</FixtureVal>
    <FixtureVal ID="60">0,255</FixtureVal>
    <FixtureVal ID="40">0,128</FixtureVal>
    <FixtureVal ID="11">0,162</FixtureVal>
-   <FixtureVal ID="18">0,116</FixtureVal>
+   <FixtureVal ID="18">0,162</FixtureVal>
    <FixtureVal ID="65">0,255</FixtureVal>
    <FixtureVal ID="63">0,0</FixtureVal>
    <FixtureVal ID="61">0,0</FixtureVal>
@@ -831,43 +831,33 @@
    <Step Number="41" FadeIn="3000" Hold="4294967294" FadeOut="0">25</Step>
    <Step Number="42" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 83">17</Step>
    <Step Number="43" FadeIn="3000" Hold="0" FadeOut="0" Note="Teen queen page 85">18</Step>
-   <Step Number="44" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 87 ready for ring">33</Step>
-   <Step Number="45" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
-   <Step Number="46" FadeIn="3000" Hold="4294967294" FadeOut="0">17</Step>
-   <Step Number="47" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
-   <Step Number="48" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
-   <Step Number="49" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Act 2 Scene 3 page 93">2</Step>
-   <Step Number="50" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
-   <Step Number="51" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
-   <Step Number="52" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Spot Light + Chase">16</Step>
-   <Step Number="53" FadeIn="3000" Hold="4294967294" FadeOut="0">0</Step>
-   <Step Number="54" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
-   <Step Number="55" FadeIn="3000" Hold="0" FadeOut="0">2</Step>
-   <Step Number="56" FadeIn="3000" Hold="0" FadeOut="0">31</Step>
-   <Step Number="57" FadeIn="3000" Hold="0" FadeOut="0">32</Step>
-   <Step Number="58" FadeIn="0" Hold="4294967294" FadeOut="0">31</Step>
-   <Step Number="59" FadeIn="3000" Hold="4294967294" FadeOut="0">17</Step>
-   <Step Number="60" FadeIn="3000" Hold="4294967294" FadeOut="0">12</Step>
-   <Step Number="61" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 103">17</Step>
-   <Step Number="62" FadeIn="0" Hold="4294967294" FadeOut="0">36</Step>
-   <Step Number="63" FadeIn="500" Hold="4294967294" FadeOut="0" Note="Page 105">17</Step>
-   <Step Number="64" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Page 107">41</Step>
-   <Step Number="65" FadeIn="3000" Hold="4294967294" FadeOut="0">40</Step>
-   <Step Number="66" FadeIn="0" Hold="4294967294" FadeOut="0">41</Step>
-   <Step Number="67" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="End of page 112">12</Step>
-   <Step Number="68" FadeIn="0" Hold="0" FadeOut="0">38</Step>
-   <Step Number="69" FadeIn="0" Hold="0" FadeOut="0">37</Step>
-   <Step Number="70" FadeIn="0" Hold="0" FadeOut="0">11</Step>
-   <Step Number="71" FadeIn="0" Hold="0" FadeOut="0">6</Step>
-   <Step Number="72" FadeIn="0" Hold="0" FadeOut="0">23</Step>
-   <Step Number="73" FadeIn="0" Hold="0" FadeOut="0">24</Step>
-   <Step Number="74" FadeIn="0" Hold="0" FadeOut="0">12</Step>
-   <Step Number="75" FadeIn="0" Hold="0" FadeOut="0">23</Step>
-   <Step Number="76" FadeIn="0" Hold="0" FadeOut="0">26</Step>
-   <Step Number="77" FadeIn="0" Hold="0" FadeOut="0">42</Step>
-   <Step Number="78" FadeIn="0" Hold="0" FadeOut="0">2</Step>
-   <Step Number="79" FadeIn="0" Hold="0" FadeOut="0">42</Step>
-   <Step Number="80" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="44" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
+   <Step Number="45" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 87 ready for ring">33</Step>
+   <Step Number="46" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
+   <Step Number="47" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Ends at page 93">17</Step>
+   <Step Number="48" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
+   <Step Number="49" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="50" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Act 2 Scene 3 page 93">2</Step>
+   <Step Number="51" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="52" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
+   <Step Number="53" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Spot Light + Chase  Page 98">16</Step>
+   <Step Number="54" FadeIn="3000" Hold="4294967294" FadeOut="0">0</Step>
+   <Step Number="55" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
+   <Step Number="56" FadeIn="3000" Hold="0" FadeOut="0">2</Step>
+   <Step Number="57" FadeIn="3000" Hold="0" FadeOut="0">31</Step>
+   <Step Number="58" FadeIn="3000" Hold="0" FadeOut="0">32</Step>
+   <Step Number="59" FadeIn="0" Hold="4294967294" FadeOut="0">31</Step>
+   <Step Number="60" FadeIn="3000" Hold="4294967294" FadeOut="0">17</Step>
+   <Step Number="61" FadeIn="3000" Hold="4294967294" FadeOut="0">12</Step>
+   <Step Number="62" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 103">17</Step>
+   <Step Number="63" FadeIn="0" Hold="4294967294" FadeOut="0">36</Step>
+   <Step Number="64" FadeIn="500" Hold="4294967294" FadeOut="0" Note="Page 105">17</Step>
+   <Step Number="65" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Page 107">41</Step>
+   <Step Number="66" FadeIn="3000" Hold="4294967294" FadeOut="0">40</Step>
+   <Step Number="67" FadeIn="0" Hold="4294967294" FadeOut="0">41</Step>
+   <Step Number="68" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="End of page 112">12</Step>
+   <Step Number="69" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="70" FadeIn="0" Hold="0" FadeOut="0">37</Step>
   </Function>
   <Function ID="2" Type="Scene" Name="Front Of Curtain">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -894,23 +884,23 @@
    <FixtureVal ID="20">0,0</FixtureVal>
    <FixtureVal ID="21">0,0</FixtureVal>
    <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="24">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="25">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="26">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="27">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="28">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="29">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="30">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="31">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="23">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,199,1,229,2,228,3,227,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
-   <FixtureVal ID="36">0,130,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,130,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,130,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,130,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="36">0,93,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,93,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,93,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,93,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="40">0,0</FixtureVal>
    <FixtureVal ID="41">0,0</FixtureVal>
    <FixtureVal ID="42">0,0</FixtureVal>
@@ -1053,10 +1043,10 @@
    <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
-   <FixtureVal ID="36">0,148,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,148,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,148,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,148,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="36">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="40">0,0</FixtureVal>
    <FixtureVal ID="41">0,0</FixtureVal>
    <FixtureVal ID="42">0,0</FixtureVal>
@@ -1625,12 +1615,12 @@
    <FixtureVal ID="55">0,143</FixtureVal>
    <FixtureVal ID="56">0,0</FixtureVal>
    <FixtureVal ID="57">0,0</FixtureVal>
-   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="58">0,17,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,17,1,0,2,0,3,255,4,0,5,0</FixtureVal>
    <FixtureVal ID="60">0,255</FixtureVal>
    <FixtureVal ID="40">0,0</FixtureVal>
    <FixtureVal ID="11">0,162</FixtureVal>
-   <FixtureVal ID="18">0,116</FixtureVal>
+   <FixtureVal ID="18">0,162</FixtureVal>
    <FixtureVal ID="61">0,0</FixtureVal>
    <FixtureVal ID="62">0,0</FixtureVal>
    <FixtureVal ID="63">0,0</FixtureVal>
@@ -1731,15 +1721,15 @@
    <FixtureVal ID="20">0,255</FixtureVal>
    <FixtureVal ID="21">0,255</FixtureVal>
    <FixtureVal ID="22">0,0</FixtureVal>
-   <FixtureVal ID="23">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="24">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="25">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="26">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="27">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="28">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="29">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="30">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="31">0,255,1,229,2,228,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="23">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,255,1,229,2,228,3,209,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
@@ -1769,7 +1759,7 @@
    <FixtureVal ID="58">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
    <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
-   <FixtureVal ID="61">0,0</FixtureVal>
+   <FixtureVal ID="61">0,255</FixtureVal>
    <FixtureVal ID="62">0,254</FixtureVal>
    <FixtureVal ID="63">0,253</FixtureVal>
    <FixtureVal ID="64">0,0</FixtureVal>
@@ -2553,7 +2543,7 @@
    <FixtureVal ID="55">0,0</FixtureVal>
    <FixtureVal ID="11">0,0</FixtureVal>
    <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="62">0,253</FixtureVal>
+   <FixtureVal ID="62">0,0</FixtureVal>
    <FixtureVal ID="64">0,0</FixtureVal>
    <FixtureVal ID="58">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
    <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
@@ -2622,7 +2612,7 @@
    <FixtureVal ID="55">0,0</FixtureVal>
    <FixtureVal ID="11">0,0</FixtureVal>
    <FixtureVal ID="18">0,0</FixtureVal>
-   <FixtureVal ID="62">0,253</FixtureVal>
+   <FixtureVal ID="62">0,0</FixtureVal>
    <FixtureVal ID="64">0,0</FixtureVal>
    <FixtureVal ID="58">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
    <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
@@ -3256,7 +3246,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="229">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">1</Channel>
       <Channel Fixture="24">1</Channel>
       <Channel Fixture="25">1</Channel>
@@ -3285,7 +3275,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="228">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">2</Channel>
       <Channel Fixture="24">2</Channel>
       <Channel Fixture="25">2</Channel>
@@ -3314,7 +3304,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="181">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
       <Channel Fixture="25">3</Channel>
@@ -3343,7 +3333,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">4</Channel>
       <Channel Fixture="24">4</Channel>
       <Channel Fixture="25">4</Channel>
@@ -3372,7 +3362,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">0</Channel>
       <Channel Fixture="24">0</Channel>
       <Channel Fixture="25">0</Channel>
@@ -3417,7 +3407,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">0</Channel>
      </Level>
      <Playback>
@@ -3438,7 +3428,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="1">0</Channel>
      </Level>
      <Playback>
@@ -3459,7 +3449,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">0</Channel>
      </Level>
      <Playback>
@@ -3480,7 +3470,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="4">0</Channel>
      </Level>
      <Playback>
@@ -3501,7 +3491,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="5">0</Channel>
      </Level>
      <Playback>
@@ -3522,7 +3512,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="6">0</Channel>
      </Level>
      <Playback>
@@ -3559,7 +3549,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="206">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="8">0</Channel>
      </Level>
      <Playback>
@@ -3580,7 +3570,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="206">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="9">0</Channel>
      </Level>
      <Playback>
@@ -3601,7 +3591,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="206">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="10">0</Channel>
      </Level>
      <Playback>
@@ -3622,7 +3612,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="206">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">0</Channel>
      </Level>
      <Playback>
@@ -3643,7 +3633,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="206">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="13">0</Channel>
      </Level>
      <Playback>
@@ -3664,7 +3654,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="206">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="14">0</Channel>
      </Level>
      <Playback>
@@ -3837,7 +3827,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="15">0</Channel>
      </Level>
      <Playback>
@@ -3858,7 +3848,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="16">0</Channel>
      </Level>
      <Playback>
@@ -3879,7 +3869,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="17">0</Channel>
      </Level>
      <Playback>
@@ -3900,7 +3890,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="19">0</Channel>
      </Level>
      <Playback>
@@ -3921,7 +3911,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="20">0</Channel>
      </Level>
      <Playback>
@@ -3942,7 +3932,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="204">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="21">0</Channel>
      </Level>
      <Playback>
@@ -4099,7 +4089,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">0</Channel>
      </Level>
      <Playback>
@@ -4119,7 +4109,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="32">1</Channel>
      </Level>
      <Playback>
@@ -4276,7 +4266,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">0</Channel>
      </Level>
      <Playback>
@@ -4296,7 +4286,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="33">1</Channel>
      </Level>
      <Playback>
@@ -4453,7 +4443,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">0</Channel>
      </Level>
      <Playback>
@@ -4473,7 +4463,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="34">1</Channel>
      </Level>
      <Playback>
@@ -4630,7 +4620,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">0</Channel>
      </Level>
      <Playback>
@@ -4650,7 +4640,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="127">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="35">1</Channel>
      </Level>
      <Playback>
@@ -5034,7 +5024,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="192">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">0</Channel>
      </Level>
      <Playback>
@@ -5175,7 +5165,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="22">0</Channel>
      </Level>
      <Playback>
@@ -5215,7 +5205,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="252">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="61">0</Channel>
      </Level>
      <Playback>
@@ -5252,7 +5242,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">0</Channel>
       <Channel Fixture="59">0</Channel>
      </Level>
@@ -5274,7 +5264,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="128">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">1</Channel>
       <Channel Fixture="59">1</Channel>
      </Level>
@@ -5296,7 +5286,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="188">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">2</Channel>
       <Channel Fixture="59">2</Channel>
      </Level>
@@ -5318,7 +5308,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="241">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="58">3</Channel>
       <Channel Fixture="59">3</Channel>
      </Level>
