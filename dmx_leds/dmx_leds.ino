@@ -68,7 +68,11 @@ void setPixel(uint16_t pixel, uint32_t color) {
 void setAllPixels(uint32_t color, uint8_t gap) {
    uint16_t x;
    for ( x=0; x < 300; x++ ) {
-      if ( (300-x) >= gap ) strip1.setPixelColor(x,color);
+      //if ( (300-x) >= gap ) strip1.setPixelColor(x,color);
+      //else strip1.setPixelColor(x,0);
+      //if ( (300-x) >= gap ) strip2.setPixelColor(x,color);
+      //else strip2.setPixelColor(x,0);
+      if ( x >= gap ) strip1.setPixelColor(x,color);
       else strip1.setPixelColor(x,0);
       if ( x >= gap ) strip2.setPixelColor(x,color);
       else strip2.setPixelColor(x,0);
@@ -128,9 +132,10 @@ void loop() {
    if ( green > max ) green = max;
    if ( blue  > max ) blue  = max;
 
-   if ( mode < 10 ) setAllPixels(strip1.Color(red,green,blue),0);
-   else if ( mode < 100 ) setRainbow(max,0,0);
-   else setRainbow(max,(mode-100)*4,0);
+   setAllPixels(strip1.Color(red,green,blue),mode);
+   //if ( mode < 10 ) setAllPixels(strip1.Color(red,green,blue),mode);
+   //else if ( mode < 100 ) setRainbow(max,0,0);
+   //else setRainbow(max,(mode-100)*4,0);
 
    strip1.show();
    strip2.show();
