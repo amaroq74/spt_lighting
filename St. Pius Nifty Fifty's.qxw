@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.1</Version>
-  <Author>Ryan Herbst</Author>
+  <Author></Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -799,64 +799,67 @@
    <Step Number="9" FadeIn="3000" Hold="4294967294" FadeOut="0">24</Step>
    <Step Number="10" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Girls Enter Top of page 12">23</Step>
    <Step Number="11" FadeIn="3000" Hold="4294967294" FadeOut="0">24</Step>
-   <Step Number="12" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 31">12</Step>
-   <Step Number="13" FadeIn="3000" Hold="4294967294" FadeOut="0">25</Step>
-   <Step Number="14" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 35">17</Step>
-   <Step Number="15" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 46">26</Step>
-   <Step Number="16" FadeIn="3000" Hold="4294967294" FadeOut="0">17</Step>
-   <Step Number="17" FadeIn="3000" Hold="4294967294" FadeOut="0">26</Step>
-   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0">27</Step>
+   <Step Number="12" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 21 top">23</Step>
+   <Step Number="13" FadeIn="3000" Hold="4294967294" FadeOut="0">24</Step>
+   <Step Number="14" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 31 aim late">12</Step>
+   <Step Number="15" FadeIn="3000" Hold="4294967294" FadeOut="0">25</Step>
+   <Step Number="16" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 35">17</Step>
+   <Step Number="17" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 46">26</Step>
+   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0">17</Step>
    <Step Number="19" FadeIn="0" Hold="4294967294" FadeOut="0">26</Step>
-   <Step Number="20" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="As they start moving to mosh pit">28</Step>
-   <Step Number="21" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 47">17</Step>
-   <Step Number="22" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
-   <Step Number="23" FadeIn="500" Hold="4294967294" FadeOut="0">6</Step>
-   <Step Number="24" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 54 Spot Light">29</Step>
-   <Step Number="25" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="After Song Ends">30</Step>
-   <Step Number="26" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="PGE 61">17</Step>
-   <Step Number="27" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 68">15</Step>
-   <Step Number="28" FadeIn="3000" Hold="4294967294" FadeOut="0">14</Step>
-   <Step Number="29" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="eND OF ACT ONE">15</Step>
-   <Step Number="30" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
-   <Step Number="31" FadeIn="500" Hold="4294967294" FadeOut="0">6</Step>
-   <Step Number="32" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="A2 S1 page 70">2</Step>
-   <Step Number="33" FadeIn="3000" Hold="4294967294" FadeOut="0">42</Step>
-   <Step Number="34" FadeIn="0" Hold="4294967294" FadeOut="0">2</Step>
-   <Step Number="35" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
-   <Step Number="36" FadeIn="3000" Hold="0" FadeOut="0" Note="S2 S2 Page 76">17</Step>
-   <Step Number="37" FadeIn="3000" Hold="4294967294" FadeOut="0">31</Step>
-   <Step Number="38" FadeIn="3000" Hold="4294967294" FadeOut="0">32</Step>
-   <Step Number="39" FadeIn="1000" Hold="4294967294" FadeOut="0">31</Step>
-   <Step Number="40" FadeIn="3000" Hold="4294967294" FadeOut="0">25</Step>
-   <Step Number="41" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 83">17</Step>
-   <Step Number="42" FadeIn="3000" Hold="0" FadeOut="0" Note="Teen queen page 85">18</Step>
-   <Step Number="43" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
-   <Step Number="44" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 87 ready for ring">33</Step>
-   <Step Number="45" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
-   <Step Number="46" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Ends at page 93">17</Step>
-   <Step Number="47" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
-   <Step Number="48" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
-   <Step Number="49" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Act 2 Scene 3 page 93">2</Step>
-   <Step Number="50" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
-   <Step Number="51" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
-   <Step Number="52" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Spot Light + Chase  Page 98">16</Step>
-   <Step Number="53" FadeIn="3000" Hold="4294967294" FadeOut="0">0</Step>
+   <Step Number="20" FadeIn="0" Hold="4294967294" FadeOut="0">27</Step>
+   <Step Number="21" FadeIn="0" Hold="4294967294" FadeOut="0">26</Step>
+   <Step Number="22" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="As they start moving to mosh pit">28</Step>
+   <Step Number="23" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 47">17</Step>
+   <Step Number="24" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
+   <Step Number="25" FadeIn="500" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="26" FadeIn="3000" Hold="4294967294" FadeOut="0">44</Step>
+   <Step Number="27" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 54 Spot Light">29</Step>
+   <Step Number="28" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="After Song Ends">30</Step>
+   <Step Number="29" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="PGE 61">17</Step>
+   <Step Number="30" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 68">15</Step>
+   <Step Number="31" FadeIn="3000" Hold="4294967294" FadeOut="0">14</Step>
+   <Step Number="32" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="eND OF ACT ONE">15</Step>
+   <Step Number="33" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
+   <Step Number="34" FadeIn="500" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="35" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="A2 S1 page 70">2</Step>
+   <Step Number="36" FadeIn="3000" Hold="4294967294" FadeOut="0">42</Step>
+   <Step Number="37" FadeIn="3000" Hold="4294967294" FadeOut="0">2</Step>
+   <Step Number="38" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
+   <Step Number="39" FadeIn="3000" Hold="0" FadeOut="0" Note="S2 S2 Page 76">17</Step>
+   <Step Number="40" FadeIn="3000" Hold="4294967294" FadeOut="0">31</Step>
+   <Step Number="41" FadeIn="3000" Hold="4294967294" FadeOut="0">32</Step>
+   <Step Number="42" FadeIn="1000" Hold="4294967294" FadeOut="0">31</Step>
+   <Step Number="43" FadeIn="3000" Hold="4294967294" FadeOut="0">25</Step>
+   <Step Number="44" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 83">17</Step>
+   <Step Number="45" FadeIn="3000" Hold="0" FadeOut="0" Note="Teen queen page 85">18</Step>
+   <Step Number="46" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
+   <Step Number="47" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 87 ready for ring">33</Step>
+   <Step Number="48" FadeIn="3000" Hold="4294967294" FadeOut="0">34</Step>
+   <Step Number="49" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Ends at page 93">17</Step>
+   <Step Number="50" FadeIn="3000" Hold="4294967294" FadeOut="0">13</Step>
+   <Step Number="51" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
+   <Step Number="52" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Act 2 Scene 3 page 93">2</Step>
+   <Step Number="53" FadeIn="3000" Hold="4294967294" FadeOut="0">6</Step>
    <Step Number="54" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
-   <Step Number="55" FadeIn="3000" Hold="0" FadeOut="0">2</Step>
-   <Step Number="56" FadeIn="3000" Hold="0" FadeOut="0">31</Step>
-   <Step Number="57" FadeIn="3000" Hold="0" FadeOut="0">32</Step>
-   <Step Number="58" FadeIn="0" Hold="4294967294" FadeOut="0">31</Step>
-   <Step Number="59" FadeIn="3000" Hold="4294967294" FadeOut="0">17</Step>
-   <Step Number="60" FadeIn="3000" Hold="4294967294" FadeOut="0">12</Step>
-   <Step Number="61" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 103">17</Step>
-   <Step Number="62" FadeIn="0" Hold="4294967294" FadeOut="0">36</Step>
-   <Step Number="63" FadeIn="500" Hold="4294967294" FadeOut="0" Note="Page 105">17</Step>
-   <Step Number="64" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Page 107">41</Step>
-   <Step Number="65" FadeIn="3000" Hold="4294967294" FadeOut="0">40</Step>
-   <Step Number="66" FadeIn="0" Hold="4294967294" FadeOut="0">41</Step>
-   <Step Number="67" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="End of page 112">12</Step>
-   <Step Number="68" FadeIn="0" Hold="0" FadeOut="0">38</Step>
-   <Step Number="69" FadeIn="0" Hold="0" FadeOut="0" Note="TURN OFF PROJECTORS">37</Step>
+   <Step Number="55" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Spot Light + Chase  Page 98">16</Step>
+   <Step Number="56" FadeIn="3000" Hold="4294967294" FadeOut="0">0</Step>
+   <Step Number="57" FadeIn="3000" Hold="4294967294" FadeOut="0">7</Step>
+   <Step Number="58" FadeIn="3000" Hold="0" FadeOut="0">2</Step>
+   <Step Number="59" FadeIn="3000" Hold="0" FadeOut="0">31</Step>
+   <Step Number="60" FadeIn="3000" Hold="0" FadeOut="0">32</Step>
+   <Step Number="61" FadeIn="0" Hold="4294967294" FadeOut="0">31</Step>
+   <Step Number="62" FadeIn="3000" Hold="4294967294" FadeOut="0">17</Step>
+   <Step Number="63" FadeIn="3000" Hold="4294967294" FadeOut="0">12</Step>
+   <Step Number="64" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="Page 103">17</Step>
+   <Step Number="65" FadeIn="0" Hold="4294967294" FadeOut="0">36</Step>
+   <Step Number="66" FadeIn="500" Hold="4294967294" FadeOut="0" Note="Page 105">17</Step>
+   <Step Number="67" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Page 107">41</Step>
+   <Step Number="68" FadeIn="3000" Hold="4294967294" FadeOut="0">40</Step>
+   <Step Number="69" FadeIn="0" Hold="4294967294" FadeOut="0">41</Step>
+   <Step Number="70" FadeIn="3000" Hold="4294967294" FadeOut="0" Note="End of page 112">12</Step>
+   <Step Number="71" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="72" FadeIn="0" Hold="0" FadeOut="0" Note="TURN OFF PROJECTORS">37</Step>
   </Function>
   <Function ID="2" Type="Scene" Name="Front Of Curtain">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1221,16 +1224,16 @@
    <FixtureVal ID="4">0,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="8">0,123</FixtureVal>
-   <FixtureVal ID="9">0,123</FixtureVal>
-   <FixtureVal ID="10">0,123</FixtureVal>
-   <FixtureVal ID="12">0,123</FixtureVal>
-   <FixtureVal ID="13">0,123</FixtureVal>
-   <FixtureVal ID="14">0,123</FixtureVal>
-   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="15">0,0</FixtureVal>
    <FixtureVal ID="16">0,0</FixtureVal>
    <FixtureVal ID="17">0,0</FixtureVal>
@@ -1261,7 +1264,7 @@
    <FixtureVal ID="32">0,246,1,191,2,0,3,0,4,0,5,0,6,0,7,0,8,255,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,246,1,195,2,0,3,0,4,0,5,0,6,0,7,0,8,255,9,255,10,0</FixtureVal>
    <FixtureVal ID="34">0,255,1,191,2,0,3,0,4,0,5,0,6,0,7,0,8,255,9,255,10,0</FixtureVal>
-   <FixtureVal ID="35">0,251,1,188,2,0,3,0,4,0,5,0,6,0,7,0,8,255,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,87,1,188,2,0,3,0,4,0,5,0,6,0,7,0,8,255,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
    <FixtureVal ID="45">0,0</FixtureVal>
    <FixtureVal ID="46">0,0</FixtureVal>
@@ -1287,7 +1290,7 @@
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
-   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="3">0,192</FixtureVal>
    <FixtureVal ID="4">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="6">0,255</FixtureVal>
@@ -1424,7 +1427,7 @@
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
-   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="3">0,192</FixtureVal>
    <FixtureVal ID="4">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="6">0,255</FixtureVal>
@@ -1493,7 +1496,7 @@
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
-   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="3">0,192</FixtureVal>
    <FixtureVal ID="4">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="6">0,255</FixtureVal>
@@ -1835,8 +1838,8 @@
    <FixtureVal ID="3">0,0</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
    <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
-   <FixtureVal ID="33">0,249,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,203,9,255,10,0</FixtureVal>
-   <FixtureVal ID="34">0,93,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,136,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,243,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,203,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,94,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,136,9,255,10,0</FixtureVal>
    <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
    <FixtureVal ID="45">0,0</FixtureVal>
@@ -1904,7 +1907,7 @@
    <FixtureVal ID="3">0,0</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
    <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
-   <FixtureVal ID="33">0,249,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,243,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="34">0,93,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
@@ -1941,10 +1944,10 @@
    <FixtureVal ID="12">0,0</FixtureVal>
    <FixtureVal ID="13">0,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="36">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,74,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="36">0,14,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,14,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,14,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,14,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="15">0,0</FixtureVal>
    <FixtureVal ID="16">0,0</FixtureVal>
    <FixtureVal ID="17">0,0</FixtureVal>
@@ -2130,8 +2133,8 @@
    <FixtureVal ID="18">0,0</FixtureVal>
    <FixtureVal ID="62">0,0</FixtureVal>
    <FixtureVal ID="64">0,0</FixtureVal>
-   <FixtureVal ID="58">0,125,1,128,2,188,3,241,4,0,5,0</FixtureVal>
-   <FixtureVal ID="59">0,125,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,128,2,188,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,128,2,188,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="65">0,0</FixtureVal>
   </Function>
   <Function ID="28" Type="Scene" Name="The blob pit">
@@ -2217,16 +2220,16 @@
    <FixtureVal ID="12">0,0</FixtureVal>
    <FixtureVal ID="13">0,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="15">0,204</FixtureVal>
-   <FixtureVal ID="16">0,204</FixtureVal>
-   <FixtureVal ID="17">0,204</FixtureVal>
-   <FixtureVal ID="19">0,204</FixtureVal>
-   <FixtureVal ID="20">0,204</FixtureVal>
-   <FixtureVal ID="21">0,204</FixtureVal>
+   <FixtureVal ID="36">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
    <FixtureVal ID="41">0,0</FixtureVal>
    <FixtureVal ID="43">0,171</FixtureVal>
    <FixtureVal ID="42">0,175</FixtureVal>
@@ -2286,16 +2289,16 @@
    <FixtureVal ID="12">0,0</FixtureVal>
    <FixtureVal ID="13">0,0</FixtureVal>
    <FixtureVal ID="14">0,0</FixtureVal>
-   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="15">0,204</FixtureVal>
-   <FixtureVal ID="16">0,204</FixtureVal>
-   <FixtureVal ID="17">0,204</FixtureVal>
-   <FixtureVal ID="19">0,204</FixtureVal>
-   <FixtureVal ID="20">0,204</FixtureVal>
-   <FixtureVal ID="21">0,204</FixtureVal>
+   <FixtureVal ID="36">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
    <FixtureVal ID="41">0,0</FixtureVal>
    <FixtureVal ID="43">0,0</FixtureVal>
    <FixtureVal ID="42">0,0</FixtureVal>
@@ -2384,11 +2387,11 @@
    <FixtureVal ID="40">0,0</FixtureVal>
    <FixtureVal ID="56">0,0</FixtureVal>
    <FixtureVal ID="57">0,0</FixtureVal>
-   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="3">0,192</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
    <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,249,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
-   <FixtureVal ID="34">0,93,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
    <FixtureVal ID="45">0,0</FixtureVal>
@@ -2453,11 +2456,11 @@
    <FixtureVal ID="40">0,0</FixtureVal>
    <FixtureVal ID="56">0,0</FixtureVal>
    <FixtureVal ID="57">0,0</FixtureVal>
-   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="3">0,192</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
    <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,249,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,171,9,255,10,0</FixtureVal>
-   <FixtureVal ID="34">0,93,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,143,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,143,9,255,10,0</FixtureVal>
    <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
    <FixtureVal ID="45">0,0</FixtureVal>
@@ -2690,8 +2693,8 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
-   <FixtureVal ID="2">0,42</FixtureVal>
-   <FixtureVal ID="4">0,52</FixtureVal>
+   <FixtureVal ID="2">0,40</FixtureVal>
+   <FixtureVal ID="4">0,39</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
@@ -2901,16 +2904,16 @@
    <FixtureVal ID="4">0,0</FixtureVal>
    <FixtureVal ID="5">0,0</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="8">0,125</FixtureVal>
-   <FixtureVal ID="9">0,125</FixtureVal>
-   <FixtureVal ID="10">0,125</FixtureVal>
-   <FixtureVal ID="12">0,125</FixtureVal>
-   <FixtureVal ID="13">0,125</FixtureVal>
-   <FixtureVal ID="14">0,125</FixtureVal>
-   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
-   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,118,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,115,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,116,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="15">0,0</FixtureVal>
    <FixtureVal ID="16">0,0</FixtureVal>
    <FixtureVal ID="17">0,0</FixtureVal>
@@ -2941,7 +2944,7 @@
    <FixtureVal ID="32">0,246,1,191,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,246,1,195,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="34">0,255,1,198,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
-   <FixtureVal ID="35">0,251,1,192,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,87,1,192,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="44">0,0</FixtureVal>
    <FixtureVal ID="45">0,0</FixtureVal>
    <FixtureVal ID="46">0,0</FixtureVal>
@@ -3126,7 +3129,7 @@
    <FixtureVal ID="21">0,0</FixtureVal>
    <FixtureVal ID="41">0,0</FixtureVal>
    <FixtureVal ID="43">0,0</FixtureVal>
-   <FixtureVal ID="42">0,154</FixtureVal>
+   <FixtureVal ID="42">0,171</FixtureVal>
    <FixtureVal ID="61">0,0</FixtureVal>
    <FixtureVal ID="62">0,0</FixtureVal>
    <FixtureVal ID="7">0,0</FixtureVal>
@@ -3212,7 +3215,7 @@
    <FixtureVal ID="40">0,0</FixtureVal>
    <FixtureVal ID="56">0,0</FixtureVal>
    <FixtureVal ID="57">0,0</FixtureVal>
-   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="3">0,192</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
    <FixtureVal ID="32">0,246,1,191,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
    <FixtureVal ID="33">0,246,1,195,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
@@ -3238,6 +3241,144 @@
    <FixtureVal ID="59">0,255,1,128,2,188,3,241,4,0,5,0</FixtureVal>
    <FixtureVal ID="65">0,0</FixtureVal>
   </Function>
+  <Function ID="44" Type="Scene" Name="Rock Show Before">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,121,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="43">0,171</FixtureVal>
+   <FixtureVal ID="42">0,175</FixtureVal>
+   <FixtureVal ID="61">0,0</FixtureVal>
+   <FixtureVal ID="62">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="23">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,130,1,255,2,255,3,255,4,255,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,72,1,187,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,81,1,185,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="63">0,0</FixtureVal>
+   <FixtureVal ID="64">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,128,2,188,3,241,4,0,5,0</FixtureVal>
+   <FixtureVal ID="65">0,0</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="Curtains">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="37">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="38">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="39">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="61">0,0</FixtureVal>
+   <FixtureVal ID="62">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="23">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="24">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="25">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="26">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="27">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="28">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="29">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="30">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="31">0,93,1,223,2,148,3,185,4,116,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="56">0,0</FixtureVal>
+   <FixtureVal ID="57">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="60">0,0</FixtureVal>
+   <FixtureVal ID="32">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="33">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="34">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="35">0,127,1,127,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="53">0,0</FixtureVal>
+   <FixtureVal ID="54">0,0</FixtureVal>
+   <FixtureVal ID="55">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="63">0,0</FixtureVal>
+   <FixtureVal ID="64">0,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="65">0,0</FixtureVal>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0,Regular</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -3255,7 +3396,7 @@
     <Font>Default</Font>
    </Appearance>
    <Clock Type="Clock" Caption="" ID="82">
-    <WindowState Visible="False" X="1080" Y="275" Width="310" Height="75"/>
+    <WindowState Visible="True" X="1080" Y="275" Width="310" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -3265,7 +3406,7 @@
     </Appearance>
    </Clock>
    <CueList Caption="Cue list" ID="96">
-    <WindowState Visible="False" X="775" Y="835" Width="730" Height="770"/>
+    <WindowState Visible="True" X="775" Y="835" Width="730" Height="770"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4293918736</ForegroundColor>
@@ -3293,7 +3434,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="5" Y="505" Width="300" Height="255"/>
+    <WindowState Visible="True" X="5" Y="505" Width="300" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -3301,7 +3442,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="FOH Red" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3314,7 +3455,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="229">
       <Channel Fixture="23">1</Channel>
       <Channel Fixture="24">1</Channel>
       <Channel Fixture="25">1</Channel>
@@ -3330,7 +3471,7 @@
      </Playback>
     </Slider>
     <Slider Caption="FOH Green" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3343,7 +3484,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="228">
       <Channel Fixture="23">2</Channel>
       <Channel Fixture="24">2</Channel>
       <Channel Fixture="25">2</Channel>
@@ -3359,7 +3500,7 @@
      </Playback>
     </Slider>
     <Slider Caption="FOH Blue" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="115" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="115" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3372,7 +3513,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="227">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
       <Channel Fixture="25">3</Channel>
@@ -3388,7 +3529,7 @@
      </Playback>
     </Slider>
     <Slider Caption="FOH Amber" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="170" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="170" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3401,7 +3542,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="23">4</Channel>
       <Channel Fixture="24">4</Channel>
       <Channel Fixture="25">4</Channel>
@@ -3417,7 +3558,7 @@
      </Playback>
     </Slider>
     <Slider Caption="FOH Dim" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="230" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="230" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3430,7 +3571,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="199">
       <Channel Fixture="23">0</Channel>
       <Channel Fixture="24">0</Channel>
       <Channel Fixture="25">0</Channel>
@@ -3454,7 +3595,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="0" Y="830" Width="340" Height="255"/>
+    <WindowState Visible="True" X="0" Y="830" Width="340" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -3462,7 +3603,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="1Lx #1" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3483,7 +3624,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX #2" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3504,7 +3645,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX #3" ID="7" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3525,7 +3666,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX #4" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3546,7 +3687,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX #5" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3567,7 +3708,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX #6" ID="10" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3596,7 +3737,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="350" Y="835" Width="345" Height="255"/>
+    <WindowState Visible="True" X="350" Y="835" Width="345" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -3604,7 +3745,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="2LX #1" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3625,7 +3766,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX #2" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3646,7 +3787,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX #3" ID="13" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3667,7 +3808,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX #4" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3688,7 +3829,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX #5" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3709,7 +3850,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX #6" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3738,7 +3879,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="5" Y="1360" Width="290" Height="250"/>
+    <WindowState Visible="True" X="5" Y="1360" Width="290" Height="250"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -3746,7 +3887,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="3LX Red" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3770,7 +3911,7 @@
      </Playback>
     </Slider>
     <Slider Caption="3LX Green" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3794,7 +3935,7 @@
      </Playback>
     </Slider>
     <Slider Caption="3LX Amber" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3818,7 +3959,7 @@
      </Playback>
     </Slider>
     <Slider Caption="3LX Blue" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3831,7 +3972,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="36">3</Channel>
       <Channel Fixture="37">3</Channel>
       <Channel Fixture="38">3</Channel>
@@ -3842,7 +3983,7 @@
      </Playback>
     </Slider>
     <Slider Caption="3LX Dim" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3855,7 +3996,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="93">
       <Channel Fixture="36">0</Channel>
       <Channel Fixture="37">0</Channel>
       <Channel Fixture="38">0</Channel>
@@ -3874,7 +4015,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="310" Y="1360" Width="345" Height="255"/>
+    <WindowState Visible="True" X="310" Y="1360" Width="345" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -3882,7 +4023,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="4LX #1" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3903,7 +4044,7 @@
      </Playback>
     </Slider>
     <Slider Caption="4LX #2" ID="23" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3924,7 +4065,7 @@
      </Playback>
     </Slider>
     <Slider Caption="4LX #3" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3945,7 +4086,7 @@
      </Playback>
     </Slider>
     <Slider Caption="4LX #4" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3966,7 +4107,7 @@
      </Playback>
     </Slider>
     <Slider Caption="4LX #5" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -3987,7 +4128,7 @@
      </Playback>
     </Slider>
     <Slider Caption="4LX #6" ID="36" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4016,7 +4157,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="5" Y="5" Width="265" Height="470"/>
+    <WindowState Visible="True" X="5" Y="5" Width="265" Height="470"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4024,7 +4165,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Color" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="140" Y="45" Width="60" Height="200"/>
+     <WindowState Visible="True" X="140" Y="45" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4044,7 +4185,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Gobo" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4064,7 +4205,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Rotat" ID="41" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4084,7 +4225,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Prism" ID="43" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4104,7 +4245,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Dim" ID="42" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="195" Y="45" Width="60" Height="200"/>
+     <WindowState Visible="True" X="195" Y="45" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4125,7 +4266,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Focus" ID="44" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="195" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="195" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4145,7 +4286,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Pan" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="45" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="45" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4157,7 +4298,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="32">0</Channel>
      </Level>
      <Playback>
@@ -4165,7 +4306,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Tilt" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="45" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="45" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4177,7 +4318,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="32">1</Channel>
      </Level>
      <Playback>
@@ -4193,7 +4334,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="275" Y="5" Width="255" Height="470"/>
+    <WindowState Visible="True" X="275" Y="5" Width="255" Height="470"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4201,7 +4342,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Color" ID="56" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4221,7 +4362,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Gobo" ID="55" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4241,7 +4382,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Rotat" ID="54" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4261,7 +4402,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Prism" ID="53" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4281,7 +4422,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Dim" ID="52" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4302,7 +4443,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Focus" ID="51" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4322,7 +4463,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Pan" ID="32" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4334,7 +4475,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="33">0</Channel>
      </Level>
      <Playback>
@@ -4342,7 +4483,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Tilt" ID="33" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4354,7 +4495,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="33">1</Channel>
      </Level>
      <Playback>
@@ -4370,7 +4511,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="535" Y="5" Width="255" Height="470"/>
+    <WindowState Visible="True" X="535" Y="5" Width="255" Height="470"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4378,7 +4519,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Color" ID="50" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4398,7 +4539,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Gobo" ID="49" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4418,7 +4559,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Rotat" ID="48" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4438,7 +4579,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Prism" ID="47" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4458,7 +4599,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Dim" ID="46" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4479,7 +4620,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Focus" ID="45" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4499,7 +4640,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Pan" ID="85" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4511,7 +4652,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="34">0</Channel>
      </Level>
      <Playback>
@@ -4519,7 +4660,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Tilt" ID="86" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4531,7 +4672,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="34">1</Channel>
      </Level>
      <Playback>
@@ -4547,7 +4688,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="795" Y="5" Width="255" Height="470"/>
+    <WindowState Visible="True" X="795" Y="5" Width="255" Height="470"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4555,7 +4696,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Color" ID="62" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4575,7 +4716,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Gobo" ID="61" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4595,7 +4736,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Rotat" ID="60" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4615,7 +4756,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Prism" ID="59" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="135" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="135" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4635,7 +4776,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Dim" ID="58" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4656,7 +4797,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Focus" ID="57" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="265" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="265" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4676,7 +4817,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Pan" ID="87" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4688,7 +4829,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="35">0</Channel>
      </Level>
      <Playback>
@@ -4696,7 +4837,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Tilt" ID="88" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4708,7 +4849,7 @@
      <Reset>
       <Input Universe="1" Channel="13"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="35">1</Channel>
      </Level>
      <Playback>
@@ -4724,7 +4865,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="5" Y="1095" Width="340" Height="240"/>
+    <WindowState Visible="True" X="5" Y="1095" Width="340" Height="240"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4732,7 +4873,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="1LX S-1" ID="65" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4753,7 +4894,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX S-2" ID="66" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4774,7 +4915,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX S-3" ID="68" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4795,7 +4936,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX S-4" ID="67" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4816,7 +4957,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX S-5" ID="69" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4837,7 +4978,7 @@
      </Playback>
     </Slider>
     <Slider Caption="1LX S-6" ID="70" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4866,7 +5007,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="350" Y="1095" Width="340" Height="240"/>
+    <WindowState Visible="True" X="350" Y="1095" Width="340" Height="240"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4874,7 +5015,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="2LX S-1" ID="71" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4895,7 +5036,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX S-2" ID="72" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4916,7 +5057,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX S-3" ID="73" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4937,7 +5078,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX S-4" ID="74" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4958,7 +5099,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX S-5" ID="75" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -4979,7 +5120,7 @@
      </Playback>
     </Slider>
     <Slider Caption="2LX S-6" ID="76" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="35" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5008,7 +5149,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="305" Y="505" Width="350" Height="255"/>
+    <WindowState Visible="True" X="305" Y="505" Width="350" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -5016,7 +5157,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="A Left" ID="77" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5037,7 +5178,7 @@
      </Playback>
     </Slider>
     <Slider Caption="A Right" ID="78" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5058,7 +5199,7 @@
      </Playback>
     </Slider>
     <Slider Caption="A Cent" ID="79" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5079,7 +5220,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Bar" ID="80" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5100,7 +5241,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Platfrm" ID="81" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5121,7 +5262,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Proj" ID="84" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5149,7 +5290,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="660" Y="505" Width="340" Height="250"/>
+    <WindowState Visible="True" X="660" Y="505" Width="340" Height="250"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -5157,7 +5298,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Drive In #1" ID="35" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="0" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="0" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5178,7 +5319,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Drive In #2" ID="34" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="55" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="55" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5199,7 +5340,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Heart Sign" ID="63" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="110" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="110" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5220,7 +5361,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Booth Pend" ID="64" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="165" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="165" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5241,7 +5382,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Bar Leds" ID="89" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="220" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="220" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5261,7 +5402,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Bar Clock" ID="94" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="275" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="275" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5289,7 +5430,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="1060" Y="5" Width="290" Height="255"/>
+    <WindowState Visible="True" X="1060" Y="5" Width="290" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -5297,7 +5438,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Wall Dim" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="225" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="225" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5319,7 +5460,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Red" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="5" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5341,7 +5482,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Grn" ID="28" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="60" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="60" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5363,7 +5504,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Blu" ID="29" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="115" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="115" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5385,7 +5526,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Wall Func" ID="83" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="170" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="170" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5408,7 +5549,7 @@
     </Slider>
    </Frame>
    <CueList Caption="Drive In" ID="90">
-    <WindowState Visible="False" X="1010" Y="585" Width="240" Height="170"/>
+    <WindowState Visible="True" X="1010" Y="585" Width="240" Height="170"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5427,7 +5568,7 @@
     <SlidersMode>Crossfade</SlidersMode>
    </CueList>
    <Button Caption="All Off" ID="97" Icon="">
-    <WindowState Visible="False" X="1290" Y="565" Width="80" Height="85"/>
+    <WindowState Visible="True" X="1290" Y="565" Width="80" Height="85"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5440,7 +5581,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Telephone Ring 50%" ID="98" Icon="">
-    <WindowState Visible="False" X="1285" Y="680" Width="90" Height="85"/>
+    <WindowState Visible="True" X="1285" Y="680" Width="90" Height="85"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5453,7 +5594,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="House Lights 1" ID="99" Icon="">
-    <WindowState Visible="False" X="1440" Y="630" Width="65" Height="60"/>
+    <WindowState Visible="True" X="1440" Y="630" Width="65" Height="60"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5466,7 +5607,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="House Lights 2" ID="100" Icon="">
-    <WindowState Visible="False" X="1440" Y="700" Width="65" Height="60"/>
+    <WindowState Visible="True" X="1440" Y="700" Width="65" Height="60"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5479,7 +5620,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Work Lights" ID="91" Icon="">
-    <WindowState Visible="False" X="1290" Y="480" Width="80" Height="65"/>
+    <WindowState Visible="True" X="1290" Y="480" Width="80" Height="65"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5488,6 +5629,19 @@
      <Font>Default</Font>
     </Appearance>
     <Function ID="6"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Curtains" ID="92" Icon="">
+    <WindowState Visible="True" X="1390" Y="480" Width="85" Height="70"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="45"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
@@ -5502,23 +5656,23 @@
    <CueStack ID="0">
     <Speed FadeIn="0" FadeOut="0" Duration="4294967295"/>
     <Cue Name="Cue 1">
-     <Value Channel="155">255</Value>
-     <Value Channel="185">255</Value>
-     <Value Channel="276">255</Value>
-     <Value Channel="105">255</Value>
-     <Value Channel="345">255</Value>
-     <Value Channel="175">255</Value>
-     <Value Channel="145">255</Value>
-     <Value Channel="296">255</Value>
-     <Value Channel="335">255</Value>
-     <Value Channel="125">255</Value>
-     <Value Channel="315">255</Value>
      <Value Channel="135">255</Value>
      <Value Channel="165">255</Value>
-     <Value Channel="256">255</Value>
-     <Value Channel="236">255</Value>
-     <Value Channel="325">255</Value>
      <Value Channel="115">255</Value>
+     <Value Channel="145">255</Value>
+     <Value Channel="125">255</Value>
+     <Value Channel="296">255</Value>
+     <Value Channel="276">255</Value>
+     <Value Channel="335">255</Value>
+     <Value Channel="345">255</Value>
+     <Value Channel="315">255</Value>
+     <Value Channel="105">255</Value>
+     <Value Channel="256">255</Value>
+     <Value Channel="175">255</Value>
+     <Value Channel="325">255</Value>
+     <Value Channel="155">255</Value>
+     <Value Channel="185">255</Value>
+     <Value Channel="236">255</Value>
      <Speed FadeIn="8411" FadeOut="4192" Duration="3356"/>
     </Cue>
     <Cue Name="Cue 4">
@@ -5528,10 +5682,10 @@
      <Speed FadeIn="0" FadeOut="5121" Duration="7096"/>
     </Cue>
     <Cue Name="Cue 3">
-     <Value Channel="5">0</Value>
+     <Value Channel="12">0</Value>
      <Value Channel="8">0</Value>
      <Value Channel="9">0</Value>
-     <Value Channel="12">0</Value>
+     <Value Channel="5">0</Value>
      <Value Channel="1">0</Value>
      <Speed FadeIn="33" FadeOut="22" Duration="28"/>
     </Cue>
