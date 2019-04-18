@@ -18,7 +18,7 @@ DMX_Slave dmx_slave ( DMX_SLAVE_CHANNELS );
 
 const int ledPin1   = 6;
 const int ledPin2   = 7;
-const int dmxBase   = 400;
+const int dmxBase   = 410;
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)

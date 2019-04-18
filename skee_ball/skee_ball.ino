@@ -2,8 +2,10 @@
 const int in_pin[] = {4, 5, 6, 7, 8};
 const int rst_pin  = 11;
 const int out_pin  = 13;
-const int out_time = 1000;
+const int out_time = 500;
 
+int in_hitA[5];
+int in_hitB[5];
 int in_hit[5];
 int out_cnt;
 int one_hit;
@@ -18,6 +20,8 @@ void setup() {
    for (i=0; i < 5; i++) {
       pinMode ( in_pin[i], INPUT );
       digitalWrite(in_pin[i], HIGH);
+      in_hitA[i] = 0;
+      in_hitB[i] = 0;
       in_hit[i] = 0;
    }
 
@@ -36,8 +40,17 @@ void loop() {
    for (i=0; i < 5; i++) {
       if ( (! digitalRead(in_pin[i])) &&  ( ! in_hit[i] ) ) {
          out_cnt = out_time;
-         in_hit[i] = 1;
-         one_hit = 1;
+         in_hitA[i] = 1;
+         in_hitB[i] = in_hitA[i];
+
+         if ( in_hitA[i] & in_hitB[i] ) {
+            in_hit[i] = 1;
+            one_hit = 1;
+         }
+      }
+      else {
+         in_hitA[i] = 0;
+         in_hitB[i] = 0;
       }
    }
 
