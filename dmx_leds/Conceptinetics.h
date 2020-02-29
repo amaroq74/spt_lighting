@@ -20,11 +20,11 @@
 /*
   This code has been tested using the following hardware:
 
-  - Arduino / Genuino UNO R3 using a CTC-DRA-13-1 ISOLATED DMX-RDM SHIELD 
-  - Arduino / Genuino MEGA2560 R3 using a CTC-DRA-13-1 ISOLATED DMX-RDM SHIELD 
-  - Arduino / Genuino Leonardo using a CTC-DRA-13-R2 ISOLATED DMX-RDM SHIELD 
+  - Arduino / Genuino UNO R3 using a CTC-DRA-13-1 ISOLATED DMX-RDM SHIELD
+  - Arduino / Genuino MEGA2560 R3 using a CTC-DRA-13-1 ISOLATED DMX-RDM SHIELD
+  - Arduino / Genuino Leonardo using a CTC-DRA-13-R2 ISOLATED DMX-RDM SHIELD
 
-  - CTC-DRA-10-1 and CTC-DRA-10-R2 is the Non-isolated costs effective DMX-RDM shield 
+  - CTC-DRA-10-1 and CTC-DRA-10-R2 is the Non-isolated costs effective DMX-RDM shield
 */
 
 
@@ -47,7 +47,7 @@
 #define DMX_START_CODE          0x0     // Start code for a DMX frame
 #define RDM_START_CODE          0xcc    // Start code for a RDM frame
 
-// Uncomment to enable Inter slot delay ) (avg < 76uSec) ... 
+// Uncomment to enable Inter slot delay ) (avg < 76uSec) ...
 // mimum is zero according to specification
 // #define DMX_IBG				    10      // Inter slot time
 
@@ -59,13 +59,13 @@
 
 // The baudrate used to automaticly generate a break within
 // your ISR.. make it lower to generate longer breaks
-#define DMX_BREAK_RATE 	 	    99900       
+#define DMX_BREAK_RATE 	 	    99900
 
-// Tabel 3-2 ANSI_E1-20-2010 
+// Tabel 3-2 ANSI_E1-20-2010
 // Minimum time to allow the datalink to 'turn arround'
 #define MIN_RESPONDER_PACKET_SPACING_USEC   176 /*176*/
 
-// Define which serial port to use as DMX port, only one can be 
+// Define which serial port to use as DMX port, only one can be
 // selected at the time by uncommenting one of the following
 // lines
 #define USE_DMX_SERIAL_0
@@ -73,9 +73,9 @@
 //#define USE_DMX_SERIAL_2
 //#define USE_DMX_SERIAL_3
 
-namespace dmx 
+namespace dmx
 {
-    enum dmxState 
+    enum dmxState
 	{
         dmxUnknown,
         dmxStartByte,
@@ -102,7 +102,7 @@ namespace rdm
 
 struct IFrameBuffer
 {
-    virtual uint16_t    getBufferSize   ( void ) = 0;        
+    virtual uint16_t    getBufferSize   ( void ) = 0;
 
     virtual uint8_t     getSlotValue    ( uint16_t index ) = 0;
     virtual void        setSlotValue    ( uint16_t index, uint8_t value ) = 0;
@@ -118,12 +118,12 @@ class DMX_FrameBuffer : IFrameBuffer
         DMX_FrameBuffer     ( DMX_FrameBuffer &buffer );
         ~DMX_FrameBuffer    ( void );
 
-        uint16_t getBufferSize ( void );        
+        uint16_t getBufferSize ( void );
 
         uint8_t getSlotValue ( uint16_t index );
         void    setSlotValue ( uint16_t index, uint8_t value );
         void    setSlotRange ( uint16_t start, uint16_t end, uint8_t value );
-        void    clear ( void );        
+        void    clear ( void );
 
         uint8_t &operator[] ( uint16_t index );
 
@@ -131,7 +131,7 @@ class DMX_FrameBuffer : IFrameBuffer
 
         uint8_t     *m_refcount;
         uint16_t    m_bufferSize;
-        uint8_t     *m_buffer;      
+        uint8_t     *m_buffer;
 };
 
 
@@ -144,13 +144,13 @@ class DMX_Master
         // Run the DMX master from a pre allocated frame buffer which
         // you have fully under your own control
         DMX_Master ( DMX_FrameBuffer &buffer, int readEnablePin  );
-        
+
         // Run the DMX master by giving a predefined maximum number of
         // channels to support
         DMX_Master ( uint16_t maxChannel, int readEnablePin );
 
         ~DMX_Master ( void );
-    
+
         void enable  ( void );              // Start transmitting
         void disable ( void );              // Stop transmitting
 
@@ -170,15 +170,15 @@ class DMX_Master
 
         uint8_t autoBreakEnabled ( void );
 
-        // We are waiting for a manual break to be generated 
+        // We are waiting for a manual break to be generated
         uint8_t waitingBreak ( void );
-        
+
         // Generate break and start transmission of frame
         void breakAndContinue ( uint8_t breakLength_us = 100 );
 
 
     protected:
-        void setStartCode ( uint8_t value ); 
+        void setStartCode ( uint8_t value );
 
 
     private:
@@ -204,7 +204,7 @@ class DMX_Slave : public DMX_FrameBuffer
         void enable     ( void );           // Enable receiver
         void disable    ( void );           // Disable receiver
 
- 
+
         // Get reference to the internal framebuffer
         DMX_FrameBuffer &getBuffer ( void );
 
@@ -241,16 +241,16 @@ class RDM_FrameBuffer : public IFrameBuffer
         RDM_FrameBuffer     ( void ) {};
         ~RDM_FrameBuffer    ( void ) {};
 
-        uint16_t getBufferSize ( void );        
+        uint16_t getBufferSize ( void );
 
         uint8_t getSlotValue ( uint16_t index );
         void    setSlotValue ( uint16_t index, uint8_t value );
-        void    clear ( void );        
+        void    clear ( void );
 
         uint8_t &operator[] ( uint16_t index );
 
-    public: // functions to provide access from USART       
-        // Process incoming byte from USART, 
+    public: // functions to provide access from USART
+        // Process incoming byte from USART,
         // returns false when no more data is accepted
         bool processIncoming ( uint8_t val, bool first = false );
 
@@ -270,7 +270,7 @@ class RDM_FrameBuffer : public IFrameBuffer
 };
 
 //
-// RDM_Responder 
+// RDM_Responder
 //
 class RDM_Responder : public RDM_FrameBuffer
 {
@@ -282,9 +282,9 @@ class RDM_Responder : public RDM_FrameBuffer
         RDM_Responder   ( uint16_t m, uint8_t d1, uint8_t d2, uint8_t d3, uint8_t d4, DMX_Slave &slave);
         ~RDM_Responder  ( void );
 
-        void    setDeviceInfo 
-                ( 
-                    uint16_t deviceModelId, 
+        void    setDeviceInfo
+                (
+                    uint16_t deviceModelId,
                     rdm::RdmProductCategory productCategory,
                     uint8_t personalities = 1,
                     uint8_t personality = 1
@@ -300,7 +300,7 @@ class RDM_Responder : public RDM_FrameBuffer
         // Set vendor software version id
         //
         // v1 = MOST SIGNIFICANT
-        // v2... 
+        // v2...
         // v3...
         // v4 = LEAST SIGNIFICANT
         //
@@ -318,7 +318,7 @@ class RDM_Responder : public RDM_FrameBuffer
 
         uint8_t getPersonality ( void ) { return m_Personality; };
         void    setPersonality ( uint8_t personality ) { m_Personality = personality; };
-   
+
         // Register on identify device event handler
         void    onIdentifyDevice ( void (*func)(bool) );
         void    onDeviceLabelChanged ( void (*func) (const char*, uint8_t) );
@@ -338,14 +338,14 @@ class RDM_Responder : public RDM_FrameBuffer
             uint8_t  raw;
             struct
             {
-                uint8_t mute:1; 
+                uint8_t mute:1;
                 uint8_t ident:1;
                 uint8_t enabled:1;  // Rdm responder enable/disable
             };
         } m_rdmStatus;
 
 
-    protected:  
+    protected:
         virtual void processFrame ( void );
 
         // Discovery to unque brach packets only requires
@@ -353,7 +353,7 @@ class RDM_Responder : public RDM_FrameBuffer
         // without breaks or header
         void repondDiscUniqueBranch ( void );
 
-        // Helpers for generating response packets which 
+        // Helpers for generating response packets which
         // have larger datafields
         void populateDeviceInfo ( void );
 
@@ -364,7 +364,7 @@ class RDM_Responder : public RDM_FrameBuffer
         uint16_t                    m_DeviceModelId;
         uint8_t                     m_SoftwareVersionId[4]; // 32 bit Software version
         rdm::RdmProductCategory     m_ProductCategory;
- 
+
         char                        m_deviceLabel[32];  // Device label
 
         static void (*event_onIdentifyDevice)(bool);
