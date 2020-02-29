@@ -59,6 +59,16 @@
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
+   <ID>3</ID>
+   <Name>B1a</Name>
+   <Universe>0</Universe>
+   <Address>299</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
    <ID>4</ID>
    <Name>1LX #5</Name>
    <Universe>0</Universe>
@@ -83,6 +93,16 @@
    <Name>1LX #7</Name>
    <Universe>0</Universe>
    <Address>6</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>7</ID>
+   <Name>BL2</Name>
+   <Universe>0</Universe>
+   <Address>300</Address>
    <Channels>1</Channels>
   </Fixture>
   <Fixture>
@@ -374,6 +394,16 @@
    <Address>421</Address>
    <Channels>1</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>68</ID>
+   <Name>Loft 1</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>1</Channels>
+  </Fixture>
   <ChannelsGroup ID="0" Name="FOH Red" Value="0">23,1,24,1,25,1,26,1,27,1,28,1,29,1,30,1,31,1</ChannelsGroup>
   <ChannelsGroup ID="1" Name="FOH Green" Value="0">23,2,24,2,25,2,26,2,27,2,28,2,29,2,30,2,31,2</ChannelsGroup>
   <ChannelsGroup ID="2" Name="FOH Blue" Value="0">23,3,24,3,25,3,26,3,27,3,28,3,29,3,30,3,31,3</ChannelsGroup>
@@ -394,6 +424,18 @@
   </Function>
   <Function ID="2" Type="Scene" Name="New Scene 2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="3" Type="Scene" Name="FOH On">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="23">0,255</FixtureVal>
+   <FixtureVal ID="24">0,255</FixtureVal>
+   <FixtureVal ID="25">0,255</FixtureVal>
+   <FixtureVal ID="26">0,255</FixtureVal>
+   <FixtureVal ID="27">0,255</FixtureVal>
+   <FixtureVal ID="28">0,255</FixtureVal>
+   <FixtureVal ID="29">0,255</FixtureVal>
+   <FixtureVal ID="30">0,255</FixtureVal>
+   <FixtureVal ID="31">0,255</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="All Off">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -429,6 +471,11 @@
    <FixtureVal ID="58">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="59">0,0,1,0,2,0,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="60">0,0</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="BL On">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="Work Ligths">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -521,7 +568,7 @@
     <Font>Default</Font>
    </Appearance>
    <Clock Type="Clock" Caption="" ID="82">
-    <WindowState Visible="True" X="1195" Y="5" Width="310" Height="75"/>
+    <WindowState Visible="True" X="855" Y="5" Width="310" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -538,7 +585,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="0" Width="300" Height="255"/>
+    <WindowState Visible="True" X="0" Y="0" Width="360" Height="245"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -662,7 +709,7 @@
      </Playback>
     </Slider>
     <Slider Caption="FOH Dim" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="230" Y="40" Width="60" Height="200"/>
+     <WindowState Visible="True" X="290" Y="40" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -690,6 +737,35 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
+    <Slider Caption="FOH MAC" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="230" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="1" Channel="27"/>
+     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="23">5</Channel>
+      <Channel Fixture="24">5</Channel>
+      <Channel Fixture="25">5</Channel>
+      <Channel Fixture="26">5</Channel>
+      <Channel Fixture="27">5</Channel>
+      <Channel Fixture="28">5</Channel>
+      <Channel Fixture="29">5</Channel>
+      <Channel Fixture="30">5</Channel>
+      <Channel Fixture="31">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
    </Frame>
    <Frame Caption="First Electric" ID="102">
     <Appearance>
@@ -699,7 +775,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="295" Y="0" Width="340" Height="255"/>
+    <WindowState Visible="True" X="0" Y="245" Width="340" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -841,7 +917,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="290" Y="255" Width="345" Height="255"/>
+    <WindowState Visible="True" X="335" Y="245" Width="290" Height="245"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -953,27 +1029,6 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="2LX #6" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="275" Y="40" Width="60" Height="200"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4278190080</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="1" Channel="22"/>
-     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset>
-      <Input Universe="1" Channel="13"/>
-     </Reset>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="14">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
    </Frame>
    <Frame Caption="Wall" ID="25">
     <Appearance>
@@ -983,7 +1038,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="255" Width="290" Height="255"/>
+    <WindowState Visible="True" X="360" Y="0" Width="290" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1102,7 +1157,7 @@
     </Slider>
    </Frame>
    <Button Caption="House Lights 1" ID="99" Icon="">
-    <WindowState Visible="True" X="1435" Y="95" Width="65" Height="60"/>
+    <WindowState Visible="True" X="1335" Y="210" Width="65" Height="60"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1115,7 +1170,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="House Lights 2" ID="100" Icon="">
-    <WindowState Visible="True" X="1365" Y="95" Width="65" Height="60"/>
+    <WindowState Visible="True" X="1225" Y="210" Width="65" Height="60"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1128,7 +1183,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Curtains" ID="92" Icon="">
-    <WindowState Visible="True" X="1195" Y="95" Width="85" Height="70"/>
+    <WindowState Visible="True" X="855" Y="85" Width="85" Height="70"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1148,7 +1203,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="635" Y="0" Width="340" Height="255"/>
+    <WindowState Visible="True" X="625" Y="250" Width="340" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1290,7 +1345,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="635" Y="255" Width="170" Height="255"/>
+    <WindowState Visible="True" X="650" Y="0" Width="200" Height="255"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1339,7 +1394,73 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
+    <Slider Caption="RLx #3" ID="36" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="125" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="1" Channel="26"/>
+     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset>
+      <Input Universe="1" Channel="13"/>
+     </Reset>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="68">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
    </Frame>
+   <Slider Caption="Black Lights" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1015" Y="280" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset/>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="3">0</Channel>
+     <Channel Fixture="7">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="FOH" ID="31" Icon="">
+    <WindowState Visible="True" X="1225" Y="305" Width="85" Height="75"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="3"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Black Lights" ID="32" Icon="">
+    <WindowState Visible="True" X="1335" Y="305" Width="80" Height="75"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="5"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
   </Frame>
   <Properties>
    <Size Width="1520" Height="1610"/>
@@ -1351,23 +1472,23 @@
    <CueStack ID="0">
     <Speed FadeIn="0" FadeOut="0" Duration="4294967295"/>
     <Cue Name="Cue 1">
-     <Value Channel="155">255</Value>
-     <Value Channel="256">255</Value>
-     <Value Channel="335">255</Value>
-     <Value Channel="135">255</Value>
-     <Value Channel="125">255</Value>
-     <Value Channel="185">255</Value>
-     <Value Channel="165">255</Value>
      <Value Channel="345">255</Value>
-     <Value Channel="105">255</Value>
-     <Value Channel="145">255</Value>
-     <Value Channel="325">255</Value>
-     <Value Channel="296">255</Value>
-     <Value Channel="236">255</Value>
      <Value Channel="315">255</Value>
+     <Value Channel="105">255</Value>
+     <Value Channel="135">255</Value>
+     <Value Channel="165">255</Value>
+     <Value Channel="335">255</Value>
+     <Value Channel="256">255</Value>
+     <Value Channel="125">255</Value>
+     <Value Channel="155">255</Value>
+     <Value Channel="185">255</Value>
      <Value Channel="276">255</Value>
+     <Value Channel="325">255</Value>
      <Value Channel="175">255</Value>
      <Value Channel="115">255</Value>
+     <Value Channel="296">255</Value>
+     <Value Channel="145">255</Value>
+     <Value Channel="236">255</Value>
      <Speed FadeIn="8411" FadeOut="4192" Duration="3356"/>
     </Cue>
     <Cue Name="Cue 4">
@@ -1377,11 +1498,11 @@
      <Speed FadeIn="0" FadeOut="5121" Duration="7096"/>
     </Cue>
     <Cue Name="Cue 3">
-     <Value Channel="1">0</Value>
      <Value Channel="12">0</Value>
-     <Value Channel="8">0</Value>
-     <Value Channel="9">0</Value>
+     <Value Channel="1">0</Value>
      <Value Channel="5">0</Value>
+     <Value Channel="9">0</Value>
+     <Value Channel="8">0</Value>
      <Speed FadeIn="33" FadeOut="22" Duration="28"/>
     </Cue>
    </CueStack>
