@@ -9,7 +9,7 @@ inAddr      = 430
 #projs = [ Projector("gymproj1.pius.org",1024,"gym","gym"),
 #          Projector("gymproj2.pius.org",1024,"gym","gym") ]
 
-projs = [ Projector("gymproj1.pius.org",1024,"gym","gym") ]
+projs = [ Projector("gy-proj1.pius.org",1024,"gym","gym") ]
 
 curState = all([proj.getShutter() for proj in projs])
 curTime = time.time()

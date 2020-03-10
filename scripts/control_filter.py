@@ -10,13 +10,12 @@ def txData(status):
 
 def rxData(data):
     for i in range(len(data)):
-        if i == 22:
-            thold = 20
-        else:
-            thold = 10
-
-        if data[i] < thold:
+        if data[i] < 25:
             data[i] = 0
+        elif data[i] > 200:
+            data[i] = 255
+        else:
+            data[i] = int(((float(data[i])-25.0)/200.0) * 255.0)
 
     client.SendDmx(outUniverse,data,txData)
 
