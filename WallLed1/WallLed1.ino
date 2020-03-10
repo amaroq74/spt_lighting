@@ -3,9 +3,7 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 #include <Adafruit_NeoPixel.h>
-#include <ESPDMX.h>
-
-DMXESPSerial dmx;
+#include <LXESP8266UARTDMX.h>
 
 // Configuration
 //const char * ssid        = "gydev";
@@ -13,6 +11,7 @@ DMXESPSerial dmx;
 const char * ssid        = "amaroq";
 const char * password    = "1er4idnfu345os3o283";
 
+#define DMX_SLAVE_CHANNELS 6
 // Chan 0 = max
 // Chan 1 = red
 // Chan 2 = green
@@ -21,7 +20,7 @@ const char * password    = "1er4idnfu345os3o283";
 
 const int ledPin1   = 4;
 const int ledPin2   = 5;
-const int dmxBase   = 420;
+const int dmxBase   = 410;
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
@@ -42,6 +41,9 @@ uint8_t red;
 uint8_t green;
 uint8_t blue;
 uint8_t mode;
+
+unsigned int got_dmx = 0;
+unsigned int dmxCount = 0;
 
 const unsigned long TimeoutPeriod = 2000;  // 2 seconds
 
@@ -164,7 +166,7 @@ void wwwClient() {
 
                   // Web Page Heading
                   client.println("<body><center>");
-                  client.println("<h1>Wall 2 Light Control</h1>");
+                  client.println("<h1>Wall 1 Light Control</h1>");
 
                   client.print("<p>DMX Values: <p>");
                   client.print("Level: ");
@@ -181,6 +183,12 @@ void wwwClient() {
                   client.println("<br>\n");
                   client.print("Mode: ");
                   client.print(mode);
+                  client.println("<br>\n");
+                  client.print("Base: ");
+                  client.print(dmxBase);
+                  client.println("<br>\n");
+                  client.print("Count: ");
+                  client.print(dmxCount);
                   client.println("<br>\n");
 
                   client.print("<p>WIFI Strength: ");
@@ -213,6 +221,34 @@ void wwwClient() {
    }
 }
 
+#define DMX_READ_TIMEOUT_COUNT 10000
+
+void readDMXFrame() {   // <- Attempt to read a single DMX frame
+  ESP8266DMX.startInput();
+
+  uint32_t t_o_ct = 0;  // timeout counter should wait no more than 2 frames of DMX
+                        // (? good value for limit)
+                        // --will delay animation if too long
+                        // --will prevent read if too short
+  while ( (got_dmx == 0 ) && (t_o_ct < DMX_READ_TIMEOUT_COUNT) ) {
+    t_o_ct++;
+    if ( ESP8266DMX.isReceiving() ) {       // if started to read packet, wait until done
+      t_o_ct = 0;                           // still timeout in case of DMX signal interruption
+      while ( ESP8266DMX.isReceiving() && (got_dmx == 0 ) && (t_o_ct < DMX_READ_TIMEOUT_COUNT) ) {
+        t_o_ct++;
+      }
+
+      t_o_ct = 0;
+    }   //<- receiving
+  }     //<- ! got_dmx || timeout
+
+  ESP8266DMX.stop();
+}
+
+void gotDMXCallback(int slots) {
+  got_dmx = slots;
+  dmxCount += 1;
+}
 
 // Initialize
 void setup() {
@@ -255,8 +291,7 @@ void setup() {
    ArduinoOTA.begin();
    server.begin();
 
-   Serial.begin(9600);
-   dmx.init();               // initialization
+   ESP8266DMX.setDataReceivedCallback(&gotDMXCallback);
 
    strip1.begin();
    strip1.show();
@@ -269,13 +304,16 @@ void setup() {
 void loop() {
    ArduinoOTA.handle();
 
-   dmx.update();
+   readDMXFrame();
 
-   level = dmx.read(dmxBase + 0);
-   red   = dmx.read(dmxBase + 1);
-   green = dmx.read(dmxBase + 2);
-   blue  = dmx.read(dmxBase + 3);
-   mode  = dmx.read(dmxBase + 4);
+   if ( got_dmx ) {
+      level = ESP8266DMX.getSlot(dmxBase+0);
+      red   = ESP8266DMX.getSlot(dmxBase+1);
+      green = ESP8266DMX.getSlot(dmxBase+2);
+      blue  = ESP8266DMX.getSlot(dmxBase+3);
+      mode  = ESP8266DMX.getSlot(dmxBase+4);
+      got_dmx = 0;
+   }
 
    if ( red   > level ) red   = level;
    if ( green > level ) green = level;

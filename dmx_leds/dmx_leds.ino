@@ -99,16 +99,16 @@ void setRainbow(uint8_t max, uint16_t shift, uint8_t gap) {
 }
 
 // the setup routine runs once when you press reset:
-void setup() {             
-  
+void setup() {
+
    // Enable DMX slave interface and start recording
    // DMX data
-   dmx_slave.enable ();  
-  
+   dmx_slave.enable ();
+
    // Set start address to 1, this is also the default setting
    // You can change this address at any time during the program
    dmx_slave.setStartAddress (dmxBase);
-  
+
    strip1.begin();
    strip1.show();
    strip2.begin();

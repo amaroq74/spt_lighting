@@ -20,7 +20,7 @@ const char * password    = "1er4idnfu345os3o283";
 
 const int ledPin1   = 4;
 const int ledPin2   = 5;
-const int dmxBase   = 420;
+const int dmxBase   = 430;
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
@@ -166,7 +166,7 @@ void wwwClient() {
 
                   // Web Page Heading
                   client.println("<body><center>");
-                  client.println("<h1>Wall 2 Light Control</h1>");
+                  client.println("<h1>Wall 3 Light Control</h1>");
 
                   client.print("<p>DMX Values: <p>");
                   client.print("Level: ");
