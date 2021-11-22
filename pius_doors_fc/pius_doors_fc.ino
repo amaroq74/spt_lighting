@@ -5,8 +5,8 @@
 #include <PubSubClient.h>
 
 // Configuration
-const char * ssid        = "hcdev";
-const char * password    = "HcDevice3387";
+const char * ssid        = "parish_avnet";
+const char * password    = "TechUser723";
 const char * mqtt_server = "saint.pius.org";
 
 //const char * ssid        = "amaroq";
@@ -19,7 +19,7 @@ const unsigned long DebouncePeriod = 250;    // 0.25 second
 
 // Inputs
 const unsigned int InputCount = 2;
-const char * InputStatTopic[] = {"stat/fc/door1", 
+const char * InputStatTopic[] = {"stat/fc/door1",
                                  "stat/fc/door2"};
 unsigned int InputPin[]       = {4, 5};
 
@@ -145,7 +145,7 @@ void loop() {
             delay(10);
          }
       }
-   
+
       inputRaw[x] = tmp;
    }
 
@@ -153,7 +153,7 @@ void loop() {
    if ( (currTime - lastDigital) > DigitalPeriod) {
 
       for (x=0; x < InputCount; x++) {
-         if (inputLevel[x] == 1 ) 
+         if (inputLevel[x] == 1 )
             client.publish(InputStatTopic[x],"Open");
          else
             client.publish(InputStatTopic[x],"Closed");

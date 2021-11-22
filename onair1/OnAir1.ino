@@ -7,8 +7,8 @@
 const unsigned int OutputPin = 12;
 
 // Network Configuration
-const char * ssid        = "chdev";
-const char * password    = "ChDevice543";
+const char * ssid        = "parish_avnet";
+const char * password    = "TechUser723";
 const char * vmix_server = "172.16.24.122";
 const unsigned int vmix_port = 8099;
 IPAddress logAddress (172,16,24,1);

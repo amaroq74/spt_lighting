@@ -5,8 +5,8 @@
 #include <PubSubClient.h>
 
 // Configuration
-const char * ssid        = "gydev";
-const char * password    = "GyDevice3389";
+const char * ssid        = "parish_avnet";
+const char * password    = "TechUser723";
 unsigned int locPort     = 8112;
 unsigned int logPort     = 8111;
 IPAddress    logAddress (172,16,20,1);
@@ -76,7 +76,7 @@ void sendMsg() {
                      outputState[0], outputState[1], outputState[2],  outputState[3],
                      outputState[4], outputState[5], outputState[6],  outputState[7],
                      outputState[8], outputState[9], outputState[10], outputState[11]);
- 
+
    Serial.write(txBuffer);
    logPrintf("Sending message to arduino: %s",txBuffer)
    lastMsgTx = millis();
@@ -97,7 +97,7 @@ void recvMsg() {
    if ( rxCount > 7 && rxBuffer[rxCount-1] == '\n' ) {
 
       // Parse string
-      tmp = sscanf(rxBuffer,"%s %i %i %i %i %i %i %i %i %i %i %i %i", 
+      tmp = sscanf(rxBuffer,"%s %i %i %i %i %i %i %i %i %i %i %i %i",
                    mark, &(statusState[0]), &(statusState[1]), &(statusState[2]), &(statusState[3]),
                          &(statusState[4]), &(statusState[5]), &(statusState[6]), &(statusState[7]),
                          &(statusState[8]), &(statusState[9]), &(statusState[10]), &(statusState[11]));
@@ -257,19 +257,19 @@ void wwwClient() {
                      tmp = 1;
 
                   } else {
-                              
+
                      // Display the HTML web page
                      client.println("<!DOCTYPE html><html>");
                      client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
                      client.println("<link rel=\"icon\" href=\"data:,\">");
 
-                     // CSS to style the on/off buttons 
+                     // CSS to style the on/off buttons
                      // Feel free to change the background-color and font-size attributes to fit your preferences
                      client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
                      client.println(".button { background-color: #195B6A; border: none; color: white; padding: 16px 40px;");
                      client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
                      client.println(".button2 {background-color: #77878A;}</style></head>");
-              
+
                      // Web Page Heading
                      client.println("<body><center>");
                      client.println("<h1>Gym Light Control</h1>");
@@ -359,7 +359,7 @@ void loop() {
          tmp = 1;
       }
    }
-         
+
    if ( tmp == 1 ) sendMsg();
    wwwClient();
 }
