@@ -6,10 +6,8 @@
 #include <LXESP8266UARTDMX.h>
 
 // Configuration
-//const char * ssid        = "gydev";
-//const char * password    = "GyDevice3389";
-const char * ssid        = "amaroq";
-const char * password    = "1er4idnfu345os3o283";
+const char * ssid        = "parish_avnet";
+const char * password    = "TechUser723";
 
 #define DMX_SLAVE_CHANNELS 6
 // Chan 0 = max
@@ -20,7 +18,7 @@ const char * password    = "1er4idnfu345os3o283";
 
 const int ledPin1   = 4;
 const int ledPin2   = 5;
-const int dmxBase   = 410;
+const int dmxBase   = 400;
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
